@@ -1,9 +1,736 @@
 # GENERATED FILE — do not edit by hand.
-# Rebuilt from ORCID by scripts/sync_orcid.py on every deploy.
-# This placeholder is replaced the first time the workflow runs.
+# Rebuilt from ORCID by scripts/sync_orcid.py.
+# Fix mistakes in your ORCID record, not here.
 
-generated: not yet synced
+generated: 10 September 2026
 source: https://orcid.org/0000-0002-8233-6071
-count: 0
-recent: []
-groups: []
+count: 124
+recent:
+- title: A Lightweight Reinforcement Learning-Based Congestion-Aware Scheduling Framework for Blockchain-Enabled
+    Multi-Access Edge Computing
+  authors: X. Lu, X. Wang, Q. He, X. Wang, W. Cheng, K. Li, <b>P. K. Donta</b>, K. Yu, M. Huang
+  venue: IEEE Transactions on Consumer Electronics
+  detail: vol. 72, no. 2, pp. 4396-4406
+  year: 2026
+  url: https://doi.org/10.1109/TCE.2026.3677827
+- title: A Taxonomy of Performance Metrics for the Distributed Computing Continuum
+  venue: ArXiv
+  year: 2026
+- title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
+  venue: ArXiv
+  year: 2026
+- title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
+  venue: ArXiv
+  year: 2026
+- title: 'Clustered Edge Intelligence: Beyond Just Convergence of Edge Computing and AI'
+  venue: ArXiv
+  year: 2026
+- title: Credibility Trilemma in Polymatroidal Service Markets
+  venue: ArXiv
+  year: 2026
+- title: Dynamic and Distributed Routing in IoT Networks Based on Multiobjective Q-Learning
+  authors: S. Vaishnav, <b>P. K. Donta</b>, S. Magnússon
+  venue: IEEE Internet of Things Journal
+  detail: vol. 13, no. 10, pp. 20644-20659
+  year: 2026
+  url: https://doi.org/10.1109/JIOT.2026.3666236
+- title: Dynamic and Distributed Routing in IoT Networks based on Multi-Objective Q-Learning
+  venue: ArXiv
+  year: 2026
+- title: Dynamic and Distributed Routing in IoT Networks based on Multi-Objective Q-Learning
+  venue: ArXiv
+  year: 2026
+- title: Enhanced crack detection using GOA-UNet segmentation and Connected Component Analysis based aspect
+    ratio estimation
+  authors: A. S., A. K. Selvaraj, S. B. Prathiba, E. R. Adyanthaya, S. Janapati, <b>P. K. Donta</b>, T.
+    R. Gadekallu
+  venue: Measurement
+  detail: vol. 263, pp. 120197
+  year: 2026
+  url: https://doi.org/10.1016/J.MEASUREMENT.2025.120197
+groups:
+- type: Journal articles
+  items:
+  - title: A Lightweight Reinforcement Learning-Based Congestion-Aware Scheduling Framework for Blockchain-Enabled
+      Multi-Access Edge Computing
+    authors: X. Lu, X. Wang, Q. He, X. Wang, W. Cheng, K. Li, <b>P. K. Donta</b>, K. Yu, M. Huang
+    venue: IEEE Transactions on Consumer Electronics
+    detail: vol. 72, no. 2, pp. 4396-4406
+    year: 2026
+    url: https://doi.org/10.1109/TCE.2026.3677827
+  - title: A Taxonomy of Performance Metrics for the Distributed Computing Continuum
+    venue: ArXiv
+    year: 2026
+  - title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
+    venue: ArXiv
+    year: 2026
+  - title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
+    venue: ArXiv
+    year: 2026
+  - title: 'Clustered Edge Intelligence: Beyond Just Convergence of Edge Computing and AI'
+    venue: ArXiv
+    year: 2026
+  - title: Credibility Trilemma in Polymatroidal Service Markets
+    venue: ArXiv
+    year: 2026
+  - title: Dynamic and Distributed Routing in IoT Networks Based on Multiobjective Q-Learning
+    authors: S. Vaishnav, <b>P. K. Donta</b>, S. Magnússon
+    venue: IEEE Internet of Things Journal
+    detail: vol. 13, no. 10, pp. 20644-20659
+    year: 2026
+    url: https://doi.org/10.1109/JIOT.2026.3666236
+  - title: Dynamic and Distributed Routing in IoT Networks based on Multi-Objective Q-Learning
+    venue: ArXiv
+    year: 2026
+  - title: Dynamic and Distributed Routing in IoT Networks based on Multi-Objective Q-Learning
+    venue: ArXiv
+    year: 2026
+  - title: Enhanced crack detection using GOA-UNet segmentation and Connected Component Analysis based
+      aspect ratio estimation
+    authors: A. S., A. K. Selvaraj, S. B. Prathiba, E. R. Adyanthaya, S. Janapati, <b>P. K. Donta</b>,
+      T. R. Gadekallu
+    venue: Measurement
+    detail: vol. 263, pp. 120197
+    year: 2026
+    url: https://doi.org/10.1016/J.MEASUREMENT.2025.120197
+  - title: 'Guest Editorial: SPECIAL ISSUE ON TinyML for Edge-Driven 6G Networks'
+    authors: A. H. Sodhro, H. Q. Ngo, R. L. Aguiar, <b>P. K. Donta</b>, H. Huang, S. M. Razavi
+    venue: IEEE Wireless Communications
+    detail: vol. 33, no. 2, pp. 13-15
+    year: 2026
+    url: https://doi.org/10.1109/MWC.2026.3661786
+  - title: Intelligent Ubiquitous Mobile Edge Network Management
+    authors: I. Murturi, C. K. Dehury, E. Monteiro, <b>P. K. Donta</b>
+    venue: International Journal of Network Management
+    detail: vol. 36, no. 4
+    year: 2026
+    url: https://doi.org/10.1002/NEM.70049
+  - title: LLM-assisted Agentic Edge Intelligence Framework
+    venue: ArXiv
+    year: 2026
+  - title: Latency-Optimized Scheduling for Data Aggregation in Distributed Edge Computing
+    authors: Y. Gao, Q. Zhang, Y. Li, <b>P. K. Donta</b>, L. Lovén, S. Dustdar
+    venue: ACM Transactions on Internet Technology
+    detail: vol. 26, no. 2, pp. 1-26
+    year: 2026
+    url: https://doi.org/10.1145/3779433
+  - title: Lightweight WebAssembly-Based Intrusion Detection for Zero Trust Edge Networks
+    authors: J. Weber, I. Murturi, X. Bajrami, R. Farahani, <b>P. K. Donta</b>, S. Dustdar
+    venue: IEEE Access
+    detail: vol. 14, pp. 35337-35355
+    year: 2026
+    url: https://doi.org/10.1109/ACCESS.2026.3668033
+  - title: Neural networks-based accurate IoT data reconstruction
+    authors: I. N. Matos, G. B. Figueiredo, M. L. Peixoto, <b>P. K. Donta</b>, S. Dustdar, C. Prazeres
+    venue: Telematics and Informatics Reports
+    detail: vol. 22, pp. 100315
+    year: 2026
+    url: https://doi.org/10.1016/J.TELER.2026.100315
+  - title: Optimizing Multi-DNN Inference on Mobile Devices Through Heterogeneous Processor Co-Execution
+    authors: Y. Gao, Z. Zhang, <b>P. K. Donta</b>, C. K. Dehury, X. Wang, D. Niyato, Q. Zhang
+    venue: IEEE Transactions on Mobile Computing
+    detail: vol. 25, no. 6, pp. 7766-7781
+    year: 2026
+    url: https://doi.org/10.1109/TMC.2025.3647031
+  - title: Predictive RTO for CoAP using Lightweight Support Vector Regression in Internet of Things
+    venue: ArXiv
+    year: 2026
+  - title: Privacy-Aware and Energy-Efficient Split Learning for Wireless Consumer Healthcare Edge Devices
+    authors: F. Zhou, S. Guo, L. Feng, Q. Zhang, Y. Yang, W. Li, <b>P. K. Donta</b>
+    venue: IEEE Transactions on Consumer Electronics
+    detail: vol. 72, no. 1, pp. 1064-1076
+    year: 2026
+    url: https://doi.org/10.1109/TCE.2025.3636864
+  - title: 'QuaRTA-6G: Unified Post-Quantum Security and Quantum Learning for UAVs in 6G IoT'
+    authors: A. K. Selvaraj, K. S. Kannan, S. R. Krishnamoorthy, D. K. Anandhan, S. B. Prathiba, D. K.
+      Sah, <b>P. K. Donta</b>
+    venue: IEEE Internet of Things Journal
+    detail: vol. 13, no. 5, pp. 8296-8308
+    year: 2026
+    url: https://doi.org/10.1109/JIOT.2025.3631644
+  - title: 'Service Orchestration in the Computing Continuum: Structural Challenges and Vision'
+    authors: B. Sedlak, V. C. Pujol, I. M. de Abril, <b>P. K. Donta</b>, A. N. Toosi, S. Dustdar
+    venue: IEEE Internet Computing
+    detail: vol. 30, no. 2, pp. 88-98
+    year: 2026
+    url: https://doi.org/10.1109/MIC.2026.3662064
+  - title: Task-Aware Collaborative Inference and Fine-Grained DNN Partitioning in MEC Networks
+    authors: G. Zhang, Q. Zhang, L. Feng, F. Zhou, <b>P. K. Donta</b>, S. Dustdar
+    venue: IEEE Transactions on Mobile Computing
+    detail: vol. 25, no. 6, pp. 8911-8927
+    year: 2026
+    url: https://doi.org/10.1109/TMC.2025.3650680
+  - title: 'A Systematic Literature Review of Advanced Machine Learning Techniques in Wireless Body Area
+      Networks: Application, Challenges, and Future Directions'
+    authors: A. Ibrahim Adamu, P. Kumar Donta, D. Mohd Ali, S. Sarang, G. M. Stojanović, S. Seroja Sarnin
+    venue: IEEE Access
+    detail: vol. 13, pp. 194729-194778
+    year: 2025
+    url: https://doi.org/10.1109/ACCESS.2025.3631230
+  - title: A survey on fault diagnosis algorithms for high-speed train bearings
+    authors: M. Yang, T. Zhang, H. Yang, K. Li, <b>P. K. Donta</b>
+    venue: Computing
+    detail: vol. 107, no. 9
+    year: 2025
+    url: https://doi.org/10.1007/S00607-025-01528-6
+  - title: Adaptive Budgeted Multi-Armed Bandits for IoT with Dynamic Resource Constraints
+    venue: ArXiv
+    year: 2025
+  - title: Adaptive Budgeted Multi-Armed Bandits for IoT with Dynamic Resource Constraints
+    venue: ArXiv
+    year: 2025
+  - title: Adaptive stream processing on edge devices through active inference
+    authors: B. Sedlak, V. Casamayor Pujol, A. Morichetta, <b>P. K. Donta</b>, S. Dustdar
+    venue: Evolving Systems
+    detail: vol. 16, no. 4
+    year: 2025
+    url: https://doi.org/10.1007/S12530-025-09753-2
+  - title: Benchmarking Dynamic SLO Compliance in Distributed Computing Continuum Systems
+    authors: A. Lapkovskis, B. Sedlak, S. Magnússon, S. Dustdar, <b>P. K. Donta</b>
+    venue: 2025 IEEE International Conference on Edge Computing and Communications (EDGE)
+    detail: pp. 93-102
+    year: 2025
+    url: https://doi.org/10.1109/EDGE67623.2025.00020
+  - title: Benchmarking Dynamic SLO Compliance in Distributed Computing Continuum Systems
+    venue: ArXiv
+    year: 2025
+  - title: Communication-Efficient Federated Learning for Heterogeneous Clients
+    authors: Y. Li, X. Wang, H. Li, <b>P. K. Donta</b>, M. Huang, S. Dustdar
+    venue: ACM Transactions on Internet Technology
+    detail: vol. 25, no. 2, pp. 1-37
+    year: 2025
+    url: https://doi.org/10.1145/3716870
+  - title: Dynamic and Distributed Routing in IoT Networks based on Multi-Objective Q-Learning
+    venue: ArXiv
+    year: 2025
+  - title: Edge AI for Earth Observation
+    authors: N. Ruan, K. Li, Q. Zhang, L. Lovén, <b>P. K. Donta</b>, Y. Jia, S. Dustdar
+    venue: IEEE Internet Computing
+    detail: vol. 29, no. 3, pp. 31-40
+    year: 2025
+    url: https://doi.org/10.1109/MIC.2025.3587325
+  - title: 'Federated Domain Generalization: A Survey'
+    authors: Y. Li, X. Wang, R. Zeng, P. Kumar Donta, I. Murturi, M. Huang, S. Dustdar
+    venue: Proceedings of the IEEE
+    detail: vol. 113, no. 4, pp. 370-410
+    year: 2025
+    url: https://doi.org/10.1109/JPROC.2025.3596173
+  - title: 'Follow-Me AI: Energy-Efficient User Interaction With Smart Environments'
+    authors: A. Saleh, <b>P. K. Donta</b>, R. Morabito, N. H. Motlagh, S. Tarkoma, L. Lovén
+    venue: IEEE Pervasive Computing
+    detail: vol. 24, no. 1, pp. 32-42
+    year: 2025
+    url: https://doi.org/10.1109/MPRV.2025.3539421
+  - title: Graph-based Gossiping for Communication Efficiency in Decentralized Federated Learning
+    venue: ArXiv
+    year: 2025
+  - title: Graph-based Gossiping for Communication Efficiency in Decentralized Federated Learning
+    authors: H. Nguyen, H. Nguyen, <b>P. K. Donta</b>, S. Pirttikangas, L. Lovén
+    venue: 2025 34th International Conference on Computer Communications and Networks (ICCCN)
+    detail: pp. 1-9
+    year: 2025
+    url: https://doi.org/10.1109/ICCCN65249.2025.11133868
+  - title: Human-Based Distributed Intelligence in Computing Continuum Systems
+    authors: <b>P. K. Donta</b>, B. Sedlak, I. Murturi, V. C. Pujol, S. Dustdar
+    venue: IEEE Internet Computing
+    detail: vol. 29, no. 2, pp. 61-68
+    year: 2025
+    url: https://doi.org/10.1109/MIC.2024.3460908
+  - title: 'KDN-FLB: Knowledge-Defined Networking Through Federated Learning and Blockchain'
+    authors: Y. Li, <b>P. K. Donta</b>, X. Wang, I. Murturi, M. Huang, S. Dustdar
+    venue: Computer
+    detail: vol. 58, no. 5, pp. 16-26
+    year: 2025
+    url: https://doi.org/10.1109/MC.2024.3471984
+  - title: Off-the shelf components-based inverse memristor emulator and its application in bandwidth
+      extension of memristor emulator
+    authors: P. Kumar, M. Srivastava
+    venue: Analog Integrated Circuits and Signal Processing
+    detail: vol. 123, no. 3
+    year: 2025
+    url: https://doi.org/10.1007/S10470-025-02410-3
+  - title: Optimizing Multi-DNN Inference on Mobile Devices through Heterogeneous Processor Co-Execution
+    venue: ArXiv
+    year: 2025
+  - title: Performance Measurements in the AI-Centric Computing Continuum Systems
+    venue: ArXiv
+    year: 2025
+  - title: Resilient by Design -- Active Inference for Distributed Continuum Intelligence
+    venue: ArXiv
+    year: 2025
+  - title: 'SatCooper: Enhancing Cooperative Inference Analytics for Satellite Service via Multi-Exit
+      DNNs'
+    authors: Q. Zhang, S. Wang, J. Guan, <b>P. K. Donta</b>, X. Ma, R. V. Prasad, S. Dustdar, X. Liu
+    venue: IEEE Transactions on Mobile Computing
+    detail: vol. 24, no. 9, pp. 8314-8328
+    year: 2025
+    url: https://doi.org/10.1109/TMC.2025.3556457
+  - title: Spiking Neural Networks in Intelligent Edge Computing
+    authors: G. Zhang, L. Feng, F. Zhou, Z. Yang, Q. Zhang, A. Saleh, <b>P. K. Donta</b>, C. K. Dehury
+    venue: IEEE Consumer Electronics Magazine
+    detail: vol. 14, no. 4, pp. 66-75
+    year: 2025
+    url: https://doi.org/10.1109/MCE.2024.3506502
+  - title: Synergizing Monetization, Orchestration, and Semantics in Computing Continuum
+    venue: ArXiv
+    year: 2025
+  - title: The integration of slow-moving landslide features, MT-InSAR data, damage survey results and
+      deep learning algorithms for building vulnerability zoning and forecast
+    authors: T. Zeng, Y. Lai, Y. Li, W. Yu, Y. Li, Y. S. Hayakawa, T. Glade, <b>P. K. Donta</b>, K. Yin,
+      D. Peduto
+    venue: Engineering Geology
+    detail: vol. 359, pp. 108449
+    year: 2025
+    url: https://doi.org/10.1016/J.ENGGEO.2025.108449
+  - title: Trust-Driven Diffusion Models for Online Social Networks
+    authors: Y. Xu, G. Han, Q. Gao, <b>P. K. Donta</b>, B. Cui
+    venue: Tsinghua Science and Technology
+    year: 2025
+    url: https://doi.org/10.26599/TST.2025.9010170
+  - title: 'UserCentrix: An Agentic Memory-augmented AI Framework for Smart Spaces'
+    venue: ArXiv
+    year: 2025
+    url: https://doi.org/10.48550/ARXIV.2505.00472
+  - title: A Graph-based Approach to Human Activity Recognition
+    venue: ArXiv
+    year: 2024
+  - title: A Privacy Enforcing Framework for Data Streams on the Edge
+    authors: B. Sedlak, I. Murturi, <b>P. K. Donta</b>, S. Dustdar
+    venue: IEEE Transactions on Emerging Topics in Computing
+    detail: vol. 12, no. 3, pp. 852-863
+    year: 2024
+    url: https://doi.org/10.1109/TETC.2023.3315131
+  - title: A Systematic Review on Privacy-Aware IoT Personal Data Stores
+    authors: G. P. Pinto, <b>P. K. Donta</b>, S. Dustdar, C. Prazeres
+    venue: Sensors
+    detail: vol. 24, no. 7, pp. 2197
+    year: 2024
+    url: https://doi.org/10.3390/S24072197
+  - title: 'Active Inference on the Edge: A Design Study'
+    authors: B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar
+    venue: 2024 IEEE International Conference on Pervasive Computing and Communications Workshops and
+      other Affiliated Events (PerCom Workshops)
+    detail: pp. 550-555
+    year: 2024
+    url: https://doi.org/10.1109/PERCOMWORKSHOPS59983.2024.10502828
+  - title: Adaptive Stream Processing on Edge Devices through Active Inference
+    venue: ArXiv
+    year: 2024
+  - title: Collaborative Inference in DNN-based Satellite Systems with Dynamic Task Streams
+    authors: J. Guan, Q. Zhang, I. Murturi, <b>P. K. Donta</b>, S. Dustdar, S. Wang
+    venue: ICC 2024 - IEEE International Conference on Communications
+    detail: pp. 3803-3808
+    year: 2024
+    url: https://doi.org/10.1109/ICC51166.2024.10622590
+  - title: 'Collaborative intelligence: federated learning-enabled edge computing in Industry 5.0'
+    authors: M. Ramalingam, G. Yenduri, P. K. R. Maddikunta, <b>P. K. Donta</b>, T. R. Gadekallu
+    venue: Federated Learning for Multimedia Data Processing and Security in Industry 5.0
+    detail: pp. 59-82
+    year: 2024
+    url: https://doi.org/10.1049/PBPC066E_CH4
+  - title: Diffusing High-level SLO in Microservice Pipelines
+    authors: B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar
+    venue: 2024 IEEE International Conference on Service-Oriented System Engineering (SOSE)
+    detail: pp. 11-19
+    year: 2024
+    url: https://doi.org/10.1109/SOSE62363.2024.00008
+  - title: 'Distributed AI in Zero-Touch Provisioning for Edge Networks: Challenges and Research Directions'
+    authors: A. Hazra, A. Morichetta, I. Murturi, L. Lovén, C. K. Dehury, V. C. Pujol, <b>P. K. Donta</b>,
+      S. Dustdar
+    venue: Computer
+    detail: vol. 57, no. 3, pp. 69-78
+    year: 2024
+    url: https://doi.org/10.1109/MC.2023.3334913
+  - title: Equilibrium in the Computing Continuum through Active Inference
+    authors: B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar
+    venue: Future Generation Computer Systems
+    detail: vol. 160, pp. 92-108
+    year: 2024
+    url: https://doi.org/10.1016/J.FUTURE.2024.05.056
+  - title: Federated KNN-Based Privacy-Preserving Position Recommendation for Indoor Consumer Applications
+    authors: P. Surendra Varma, V. Anand, <b>P. K. Donta</b>
+    venue: IEEE Transactions on Consumer Electronics
+    detail: vol. 70, no. 1, pp. 2738-2745
+    year: 2024
+    url: https://doi.org/10.1109/TCE.2023.3329391
+  - title: 'Follow-Me AI: Energy-Efficient User Interaction with Smart Environments'
+    venue: ArXiv
+    year: 2024
+  - title: 'Invited Paper: DeepSLOs for the Computing Continuum'
+    authors: V. Casamayor Pujol, B. Sedlak, Y. Xu, <b>P. K. Donta</b>, S. Dustdar
+    venue: Proceedings of the 2024 Workshop on Advanced Tools, Programming Languages, and PLatforms for
+      Implementing and Evaluating algorithms for Distributed systems
+    detail: pp. 1-10
+    year: 2024
+    url: https://doi.org/10.1145/3663338.3663681
+  - title: Learning Techniques for the Internet of Things
+    venue: Learning Techniques for the Internet of Things
+    year: 2024
+    url: https://doi.org/10.1007/978-3-031-50514-0
+  - title: Learning-driven Data Fabric Trends and Challenges for cloud-to-thing continuum
+    authors: <b>P. K. Donta</b>, C. K. Dehury, Y. Hu
+    venue: Journal of King Saud University - Computer and Information Sciences
+    detail: vol. 36, no. 7, pp. 102145
+    year: 2024
+    url: https://doi.org/10.1016/J.JKSUCI.2024.102145
+  - title: Low discrepancy on non-linear sensor deployment in a time-critical linear IIoT network
+    authors: G. Thirumal, C. Kumar, <b>P. K. Donta</b>
+    venue: Internet of Things
+    detail: vol. 26, pp. 101165
+    year: 2024
+    url: https://doi.org/10.1016/J.IOT.2024.101165
+  - title: Marketing Decision Model and Consumer Behavior Prediction With Deep Learning
+    authors: A. Xu, Y. Li, <b>P. K. Donta</b>
+    venue: Journal of Organizational and End User Computing
+    detail: vol. 36, no. 1, pp. 1-25
+    year: 2024
+    url: https://doi.org/10.4018/JOEUC.336547
+  - title: Markov Blanket Composition of SLOs
+    authors: B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar
+    venue: 2024 IEEE International Conference on Edge Computing and Communications (EDGE)
+    detail: pp. 128-138
+    year: 2024
+    url: https://doi.org/10.1109/EDGE62653.2024.00025
+  - title: On Causality in Distributed Continuum Systems
+    authors: V. C. Pujol, B. Sedlak, <b>P. K. Donta</b>, S. Dustdar
+    venue: IEEE Internet Computing
+    detail: vol. 28, no. 2, pp. 57-64
+    year: 2024
+    url: https://doi.org/10.1109/MIC.2023.3344248
+  - title: Securing Clustered Edge Intelligence With Blockchain
+    authors: C. K. Dehury, S. N. Srirama*, <b>P. K. Donta</b>, S. Dustdar
+    venue: IEEE Consumer Electronics Magazine
+    detail: vol. 13, no. 1, pp. 22-29
+    year: 2024
+    url: https://doi.org/10.1109/MCE.2022.3164529
+  - title: A Bi-FPN-Based Encoder–Decoder Model for Lung Nodule Image Segmentation
+    authors: C. S. R. Annavarapu, S. A. B. Parisapogu, N. V. Keetha, <b>P. K. Donta</b>, G. Rajita
+    venue: Diagnostics
+    detail: vol. 13, no. 8, pp. 1406
+    year: 2023
+    url: https://doi.org/10.3390/diagnostics13081406
+  - title: A new fault feature extraction method of rolling bearings based on the improved self-selection
+      ICEEMDAN-permutation entropy
+    authors: M. Xiao, Z. Wang, Y. Zhao, G. Geng, S. Dustdar, <b>P. K. Donta</b>, G. Ji
+    venue: ISA Transactions
+    detail: vol. 143, pp. 536-547
+    year: 2023
+    url: https://doi.org/10.1016/J.ISATRA.2023.09.009
+  - title: 'Active Inference on the Edge: A Design Study'
+    venue: ArXiv
+    year: 2023
+  - title: An Ensemble Learning Approach for Reversible Data Hiding in Encrypted Images with Fibonacci
+      Transform
+    authors: S. Panchikkil, S. P. Vegesana, V. M. Manikandan, <b>P. K. Donta</b>, P. K. R. Maddikunta,
+      T. R. Gadekallu
+    venue: Electronics
+    detail: vol. 12, no. 2, pp. 450
+    year: 2023
+    url: https://doi.org/10.3390/electronics12020450
+  - title: Blockchain-based Zero Trust on the Edge
+    authors: C. Bicer, I. Murturi, <b>P. K. Donta</b>, S. Dustdar
+    venue: 2023 International Conference on Computational Science and Computational Intelligence (CSCI)
+    detail: pp. 1006-1013
+    year: 2023
+    url: https://doi.org/10.1109/CSCI62032.2023.00167
+  - title: Collaborative Inference in DNN-based Satellite Systems with Dynamic Task Streams
+    venue: ArXiv
+    year: 2023
+    url: https://doi.org/10.5281/ZENODO.10658238
+  - title: Collaborative Inference in DNN-based Satellite Systems with Dynamic Task Streams
+    venue: ArXiv
+    year: 2023
+  - title: 'CommunityAI: Towards Community-based Federated Learning'
+    authors: I. Murturi, <b>P. K. Donta</b>, S. Dustdar
+    venue: 2023 IEEE 5th International Conference on Cognitive Machine Intelligence (CogMI)
+    detail: pp. 1-9
+    year: 2023
+    url: https://doi.org/10.1109/COGMI58952.2023.00029
+  - title: 'Controlling Data Gravity and Data Friction: From Metrics to Multidimensional Elasticity Strategies'
+    authors: B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar
+    venue: 2023 IEEE International Conference on Software Services Engineering (SSE)
+    detail: pp. 43-49
+    year: 2023
+    url: https://doi.org/10.1109/SSE60056.2023.00017
+  - title: Cooperative Transmission Scheduling and Computation Offloading With Collaboration of Fog and
+      Cloud for Industrial IoT Applications
+    authors: A. Hazra, <b>P. K. Donta</b>, T. Amgoth, S. Dustdar
+    venue: IEEE Internet of Things Journal
+    detail: vol. 10, no. 5, pp. 3944-3953
+    year: 2023
+    url: https://doi.org/10.1109/JIOT.2022.3150070
+  - title: Designing Reconfigurable Intelligent Systems with Markov Blankets
+    authors: B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar
+    venue: Lecture Notes in Computer Science
+    detail: pp. 42-50
+    year: 2023
+    url: https://doi.org/10.1007/978-3-031-48421-6_4
+  - title: Distributed Computing Continuum Systems - Opportunities and Research Challenges
+    authors: V. Casamayor Pujol, <b>P. K. Donta</b>, A. Morichetta, I. Murturi, S. Dustdar
+    venue: Lecture Notes in Computer Science
+    detail: pp. 405-407
+    year: 2023
+    url: https://doi.org/10.1007/978-3-031-26507-5_41
+  - title: Edge Intelligence-Research Opportunities for Distributed Computing Continuum Systems
+    authors: V. C. Pujol, <b>P. K. Donta</b>, A. Morichetta, I. Murturi, S. Dustdar
+    venue: IEEE Internet Computing
+    detail: vol. 27, no. 4, pp. 53-74
+    year: 2023
+    url: https://doi.org/10.1109/MIC.2023.3284693
+  - title: 'Efficient deep neural network for intelligent robot system: Focusing on visual signal processing'
+    authors: X. Bai, X. Ning, <b>P. K. Donta</b>, W. Li
+    venue: Frontiers in Neurorobotics
+    detail: vol. 17
+    year: 2023
+    url: https://doi.org/10.3389/FNBOT.2023.1191655
+  - title: Equilibrium in the Computing Continuum through Active Inference
+    venue: ArXiv
+    year: 2023
+  - title: Equilibrium in the Computing Continuum through Active Inference
+    year: 2023
+  - title: Exploring the Potential of Distributed Computing Continuum Systems
+    authors: <b>P. K. Donta</b>, I. Murturi, V. Casamayor Pujol, B. Sedlak, S. Dustdar
+    venue: Computers
+    detail: vol. 12, no. 10, pp. 198
+    year: 2023
+    url: https://doi.org/10.3390/computers12100198
+  - title: Fundamental Research Challenges for Distributed Computing Continuum Systems
+    authors: V. Casamayor Pujol, A. Morichetta, I. Murturi, P. Kumar Donta, S. Dustdar
+    venue: Information
+    detail: vol. 14, no. 3, pp. 198
+    year: 2023
+    url: https://doi.org/10.3390/info14030198
+  - title: 'Governance and sustainability of distributed continuum systems: a big data approach'
+    authors: <b>P. K. Donta</b>, B. Sedlak, V. Casamayor Pujol, S. Dustdar
+    venue: Journal of Big Data
+    detail: vol. 10, no. 1
+    year: 2023
+    url: https://doi.org/10.1186/S40537-023-00737-0
+  - title: Joint Data Transmission and Energy Harvesting for MISO Downlink Transmission Coordination in
+      Wireless IoT Networks
+    authors: J. Liu, C. Lin, Y. Hu, <b>P. K. Donta</b>
+    venue: Sensors
+    detail: vol. 23, no. 8, pp. 3900
+    year: 2023
+    url: https://doi.org/10.3390/s23083900
+  - title: Learning-driven Zero Trust in Distributed Computing Continuum Systems
+    authors: I. Murturi, <b>P. K. Donta</b>, V. C. Pujol, A. Morichetta, S. Dustdar
+    venue: 2023 IEEE Intl Conf on Dependable, Autonomic and Secure Computing, Intl Conf on Pervasive Intelligence
+      and Computing, Intl Conf on Cloud and Big Data Computing, Intl Conf on Cyber Science and Technology
+      Congress (DASC/PiCom/CBDCom/CyberSciTech)
+    detail: pp. 0044-0049
+    year: 2023
+    url: https://doi.org/10.1109/DASC/PICOM/CBDCOM/CY59711.2023.10361352
+  - title: 'Learning-driven ubiquitous mobile edge computing: Network management challenges for future
+      generation Internet of Things'
+    authors: <b>P. K. Donta</b>, E. Monteiro, C. K. Dehury, I. Murturi
+    venue: International Journal of Network Management
+    detail: vol. 33, no. 5
+    year: 2023
+    url: https://doi.org/10.1002/NEM.2250
+  - title: On Distributed Computing Continuum Systems
+    authors: S. Dustdar, V. C. Pujol, <b>P. K. Donta</b>
+    venue: IEEE Transactions on Knowledge and Data Engineering
+    detail: vol. 35, no. 4, pp. 4092-4105
+    year: 2023
+    url: https://doi.org/10.1109/TKDE.2022.3142856
+  - title: Predicting Green Supply Chain Impact With SNN-Stacking Model in Digital Transformation Context
+    authors: T. Li, <b>P. K. Donta</b>
+    venue: Journal of Organizational and End User Computing
+    detail: vol. 35, no. 1, pp. 1-19
+    year: 2023
+    url: https://doi.org/10.4018/JOEUC.334109
+  - title: 'Stochastic Modeling for Intelligent Software-Defined Vehicular Networks: A Survey'
+    authors: B. Ravi, B. Varghese, I. Murturi, <b>P. K. Donta</b>, S. Dustdar, C. K. Dehury, S. N. Srirama
+    venue: Computers
+    detail: vol. 12, no. 8, pp. 162
+    year: 2023
+    url: https://doi.org/10.3390/computers12080162
+  - title: Target-aware distributed coverage and connectivity algorithm for wireless sensor networks
+    authors: S. P. R. Banoth, <b>P. K. Donta</b>, T. Amgoth
+    venue: Wireless Networks
+    detail: vol. 29, no. 4, pp. 1815-1830
+    year: 2023
+    url: https://doi.org/10.1007/S11276-022-03224-1
+  - title: Towards Serverless Data Exchange Within Federations
+    authors: B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Werner, K. Wolf, M. Falconi, F. Pallas, S.
+      Dustdar, S. Tai, P. Plebani
+    venue: Communications in Computer and Information Science
+    detail: pp. 144-153
+    year: 2023
+    url: https://doi.org/10.1007/978-3-031-45728-9_9
+  - title: 'iCoCoA: intelligent congestion control algorithm for CoAP using deep reinforcement learning'
+    authors: <b>P. K. Donta</b>, S. N. Srirama, T. Amgoth, C. S. R. Annavarapu
+    venue: Journal of Ambient Intelligence and Humanized Computing
+    detail: vol. 14, no. 3, pp. 2951-2966
+    year: 2023
+    url: https://doi.org/10.1007/S12652-023-04534-8
+  - title: 'Blockchain for Internet of Underwater Things: State-of-the-Art, Applications, Challenges,
+      and Future Directions'
+    authors: S. Bhattacharya, N. Victor, R. Chengoden, M. Ramalingam, G. Selvi, P. Maddikunta, <b>P. Donta</b>,
+      S. Dustdar, R. Jhaveri, T. Gadekallu
+    venue: Sustainability
+    detail: vol. 14, no. 23, pp. 15659
+    year: 2022
+    url: https://doi.org/10.3390/su142315659
+  - title: 'CCEI-IoT: Clustered and Cohesive Edge Intelligence in Internet of Things'
+    authors: C. K. Dehury, P. Kumar Donta, S. Dustdar, S. N. Srirama
+    venue: 2022 IEEE International Conference on Edge Computing and Communications (EDGE)
+    detail: pp. 33-40
+    year: 2022
+    url: https://doi.org/10.1109/EDGE55608.2022.00017
+  - title: 'Delay-aware data fusion in duty-cycled wireless sensor networks: A Q-learning approach'
+    authors: <b>P. K. Donta</b>, T. Amgoth, C. S. R. Annavarapu
+    venue: 'Sustainable Computing: Informatics and Systems'
+    detail: vol. 33, pp. 100642
+    year: 2022
+    url: https://doi.org/10.1016/J.SUSCOM.2021.100642
+  - title: Joint Beamforming, Power Allocation, and Splitting Control for SWIPT-Enabled IoT Networks with
+      Deep Reinforcement Learning and Game Theory
+    authors: J. Liu, C. R. Lin, Y. Hu, <b>P. K. Donta</b>
+    venue: Sensors
+    detail: vol. 22, no. 6, pp. 2328
+    year: 2022
+    url: https://doi.org/10.3390/s22062328
+  - title: Land subsidence prediction using recurrent neural networks
+    authors: S. Kumar, D. Kumar, <b>P. K. Donta</b>, T. Amgoth
+    venue: Stochastic Environmental Research and Risk Assessment
+    detail: vol. 36, no. 2, pp. 373-388
+    year: 2022
+    url: https://doi.org/10.1007/S00477-021-02138-2
+  - title: Survey on recent advances in IoT application layer protocols and machine learning scope for
+      research directions
+    authors: <b>P. K. Donta</b>, S. N. Srirama, T. Amgoth, C. S. R. Annavarapu
+    venue: Digital Communications and Networks
+    detail: vol. 8, no. 5, pp. 727-744
+    year: 2022
+    url: https://doi.org/10.1016/J.DCAN.2021.10.004
+  - title: The Promising Role of Representation Learning for Distributed Computing Continuum Systems
+    authors: <b>P. K. Donta</b>, S. Dustdar
+    venue: 2022 IEEE International Conference on Service-Oriented System Engineering (SOSE)
+    detail: pp. 126-132
+    year: 2022
+    url: https://doi.org/10.1109/SOSE55356.2022.00021
+  - title: An extended ACO-based mobile sink path determination in wireless sensor networks
+    authors: <b>P. K. Donta</b>, T. Amgoth, C. S. R. Annavarapu
+    venue: Journal of Ambient Intelligence and Humanized Computing
+    detail: vol. 12, no. 10, pp. 8991-9006
+    year: 2021
+    url: https://doi.org/10.1007/S12652-020-02595-7
+  - title: Dynamic mobile charger scheduling with partial charging strategy for WSNs using deep-Q-networks
+    authors: S. P. R. Banoth, <b>P. K. Donta</b>, T. Amgoth
+    venue: Neural Computing and Applications
+    detail: vol. 33, no. 22, pp. 15267-15279
+    year: 2021
+    url: https://doi.org/10.1007/S00521-021-06146-9
+  - title: 'EDGF: Empirical dataset generation framework for wireless network networks'
+    venue: ArXiv
+    year: 2021
+  - title: 'EDGF: Empirical dataset generation framework for wireless sensor networks'
+    authors: D. K. Sah, K. Cengiz, <b>P. K. Donta</b>, V. N. Inukollu, T. Amgoth
+    venue: Computer Communications
+    detail: vol. 180, pp. 48-56
+    year: 2021
+    url: https://doi.org/10.1016/J.COMCOM.2021.08.017
+  - title: Optimal rendezvous points selection and mobile sink trajectory construction for data collection
+      in WSNs
+    authors: B. G. Gutam, <b>P. K. Donta</b>, C. S. R. Annavarapu, Y. Hu
+    venue: Journal of Ambient Intelligence and Humanized Computing
+    detail: vol. 14, no. 6, pp. 7147-7158
+    year: 2021
+    url: https://doi.org/10.1007/S12652-021-03566-2
+  - title: Data Collection and Path Determination Strategies for Mobile Sink in 3D WSNs
+    authors: <b>P. K. Donta</b>, B. S. P. Rao, T. Amgoth, C. S. R. Annavarapu, S. Swain
+    venue: IEEE Sensors Journal
+    detail: vol. 20, no. 4, pp. 2224-2233
+    year: 2019
+    url: https://doi.org/10.1109/jsen.2019.2949146
+  - title: ACO-based mobile sink path determination for wireless sensor networks under non-uniform data
+      constraints
+    authors: P. K. D., T. Amgoth, C. S. R. Annavarapu
+    venue: Applied Soft Computing
+    detail: vol. 69, pp. 528-540
+    year: 2018
+    url: https://doi.org/https://doi.org/10.1016/j.asoc.2018.05.008
+  - title: 'Machine learning algorithms for wireless sensor networks: A survey'
+    authors: D. Praveen Kumar, T. Amgoth, C. S. R. Annavarapu
+    venue: Information Fusion
+    detail: vol. 49, pp. 1-25
+    year: 2018
+    url: https://doi.org/https://doi.org/10.1016/j.inffus.2018.09.013
+  - title: Fast Three Level DNA Cryptographic Technique to Provide Better Security
+    authors: C. N. Raju, D. P. Kumar, D. Hussenappa, V. Kulakarne
+    venue: Proceedings of the International Conference on Advances in Information Communication Technology
+      &amp; Computing - AICTC '16
+    detail: pp. 1-5
+    year: 2016
+    url: https://doi.org/10.1145/2979779.2979792
+  - title: A Conflict-Aware Resource Management Framework for the Computing Continuum
+    venue: ArXiv
+    year: 1800
+- type: Book chapters
+  items:
+  - title: Distributed Computing Continuum Systems–Opportunities and Research Challenges
+    venue: Service-Oriented Computing–ICSOC 2022 Workshops
+    year: 2023
+  - title: 5G applications and architectures
+    venue: 5G Enabled Secure Wireless Networks
+    year: 2019
+- type: Conference papers
+  items:
+  - title: Resilient by Design - Active Inference for Distributed Continuum Intelligence
+    authors: <b>P. K. Donta</b>, A. Lapkovskis, E. Mingozzi, S. Dustdar
+    venue: 2026 IEEE International Conference on Pervasive Computing and Communications Workshops and
+      other Affiliated Events (PerCom Workshops)
+    detail: pp. 477-480
+    year: 2026
+    url: https://doi.org/10.1109/PERCOMWORKSHOPS68308.2026.11585287
+  - title: Lightweight LSTM-Based Adaptive Kafka Tuning for Predictive IoT Data Streams
+    authors: Y. Wang, <b>P. K. Donta</b>, L. Lovén, S. Dustdar, N. H. Motlagh
+    venue: 2025 IEEE International Conference on Quantum Software (QSW)
+    detail: pp. 257-262
+    year: 2025
+    url: https://doi.org/10.1109/QSW67625.2025.00038
+  - title: Performance Measurements in the AI-Centric Computing Continuum Systems
+    authors: <b>P. K. Donta</b>, Q. Zhang, S. Dustdar
+    venue: 2025 IEEE 11th World Forum on Internet of Things (WF-IoT)
+    detail: pp. 1-6
+    year: 2025
+    url: https://doi.org/10.1109/WF-IOT64238.2025.11270701
+  - title: 'iKafka: Intelligent Storage Management for Adaptive Event Streaming in Kafka'
+    authors: Y. Wang, A. Saleh, <b>P. K. Donta</b>, N. Hossein Motlagh, L. Lovén, S. Tarkoma, S. Dustdar
+    venue: 2025 IEEE International Conference on Edge Computing and Communications (EDGE)
+    detail: pp. 34-43
+    year: 2025
+    url: https://doi.org/10.1109/EDGE67623.2025.00013
+  - title: A Graph-based Approach to Human Activity Recognition
+    authors: T. Peroutka, I. Murturi, <b>P. K. Donta</b>, S. Dustdar
+    venue: 2024 IEEE 6th International Conference on Cognitive Machine Intelligence (CogMI)
+    detail: pp. 117-126
+    year: 2024
+    url: https://doi.org/10.1109/COGMI62246.2024.00025
+  - title: Towards Intelligent Data Protocols for the Edge
+    authors: <b>P. K. Donta</b>, S. Dustdar
+    venue: 2023 IEEE International Conference on Edge Computing and Communications (EDGE)
+    detail: pp. 372-380
+    year: 2023
+    url: https://doi.org/10.1109/EDGE60047.2023.00060
+  - title: Efficient Algorithms for Point and Area Sweep-Coverage in Wireless Sensor Networks
+    authors: M. Srinivas, <b>P. K. Donta</b>, T. Amgoth
+    venue: 2021 Sixth International Conference on Wireless Communications, Signal Processing and Networking
+      (WiSPNET)
+    detail: pp. 315-320
+    year: 2021
+    url: https://doi.org/10.1109/WISPNET51692.2021.9419463
+  - title: Congestion-aware Data Acquisition with Q-learning for Wireless Sensor Networks
+    authors: <b>P. K. Donta</b>, T. Amgoth, C. S. Rao Annavarapu
+    venue: 2020 IEEE International IOT, Electronics and Mechatronics Conference (IEMTRONICS)
+    detail: pp. 1-6
+    year: 2020
+    url: https://doi.org/10.1109/IEMTRONICS51293.2020.9216379
+  - title: Finding the Minimum Number of Mobile Sinks for Data Collection in Wireless Sensor Networks
+    authors: M. Srinivas, <b>P. K. Donta</b>, T. Amgoth
+    venue: 2020 IEEE International Conference on Communication, Networks and Satellite (Comnetsat)
+    detail: pp. 256-260
+    year: 2020
+    url: https://doi.org/10.1109/COMNETSAT50391.2020.9328947
