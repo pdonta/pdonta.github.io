@@ -1,0 +1,32 @@
+# ===============================================================
+# Teaching and supervision.
+# ===============================================================
+
+intro: >-
+  I teach on the computer systems track at DSV and supervise doctoral and
+  master's students working on distributed intelligence.
+
+courses:
+  - name: Computer Systems (DA)
+    term: VT 2026
+    role: Course responsible
+    summary: ""
+
+phd_students:
+  - name: Alfreds Lapkovskis
+    role: Supervisor
+    url: https://www.su.se/english/profiles/alla1854-1.780878
+    topic: Benchmarking and early-exit inference in the computing continuum
+  - name: Shubham Vaishnav
+    role: Co-supervisor
+    url: https://www.su.se/english/profiles/shva2279-1.569025
+    topic: ""
+
+# Master's or bachelor's theses supervised. Add as they finish.
+theses: []
+
+# Delete this block if you're not currently recruiting.
+opportunities: >-
+  I am generally happy to hear from strong master's students interested in edge
+  intelligence, causal inference for systems, or energy-aware IoT. Email me with a
+  CV and a short note on what you'd like to work on.

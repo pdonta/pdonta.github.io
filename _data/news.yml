@@ -1,0 +1,27 @@
+# ===============================================================
+# News and talks, newest first.
+#
+# kind: one of "Talk", "News", "Award", "Paper", "Visit"
+# date: any readable string — "Mar 2026", "12 Mar 2026", "2026"
+# ===============================================================
+
+items:
+  - kind: News
+    date: Sep 2026
+    title: New personal website
+    summary: >-
+      Rebuilt this site on GitHub Pages, with the publication list syncing
+      automatically from ORCID.
+
+  - kind: News
+    date: 2025
+    title: Editorial board, IEEE Network Magazine
+    summary: Joined the editorial board.
+
+  # Copy this block to add an entry:
+  # - kind: Talk
+  #   date: Nov 2026
+  #   title: Title of the talk
+  #   where: Venue, city
+  #   url: https://link-to-slides-or-event
+  #   summary: One or two lines about it.

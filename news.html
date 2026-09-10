@@ -1,0 +1,28 @@
+---
+layout: default
+title: News & talks
+permalink: /news/
+---
+<div class="phead"><div class="w">
+  <h1>News &amp; talks</h1>
+  <p>Recent activity, invited talks and announcements.</p>
+</div></div>
+
+<section><div class="w">
+  <h2>All</h2>
+  <div>
+    {%- for n in site.data.news.items -%}
+    <div class="news">
+      <div class="d">{{ n.date }}</div>
+      <div>
+        {%- if n.kind %}<div class="k">{{ n.kind }}</div>{% endif -%}
+        <h3>{% if n.url %}<a href="{{ n.url }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</h3>
+        {%- if n.where %}<p>{{ n.where }}</p>{% endif -%}
+        {%- if n.summary %}<p>{{ n.summary }}</p>{% endif -%}
+      </div>
+    </div>
+    {%- else -%}
+    <p class="note">Nothing posted yet.</p>
+    {%- endfor -%}
+  </div>
+</div></section>

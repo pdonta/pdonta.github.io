@@ -1,0 +1,40 @@
+# ===============================================================
+# CV page. Newest first within each section.
+# ===============================================================
+
+# Put a PDF at assets/doc/cv.pdf to switch this link on.
+pdf: /assets/doc/cv.pdf
+
+positions:
+  - when: 2024 — present
+    what: Senior Lecturer, Associate Professor (Docent)
+    where: Department of Computer and Systems Sciences, Stockholm University, Sweden
+    note: ""
+  - when: Jul 2021 — Jun 2024
+    what: Postdoctoral Researcher
+    where: Distributed Systems Group, TU Wien, Austria
+    note: ""
+  - when: Sep 2015 — Mar 2016
+    what: Assistant Professor
+    where: Department of Information Technology, Bapatla Engineering College, India
+    note: ""
+
+education:
+  - when: 2017 — Jun 2021
+    what: PhD, Computer Science & Engineering
+    where: Indian Institute of Technology (ISM) Dhanbad, India
+    note: ""
+  - when: Jul 2019 — Jan 2020
+    what: Visiting PhD Fellow
+    where: Mobile & Cloud Lab, University of Tartu, Estonia
+    note: Dora Plus grant, Archimedes Foundation.
+  - when: 2012 — 2014
+    what: MTech, Computer Science & Engineering
+    where: JNTUA, Ananthapur, India
+    note: Distinction.
+  - when: 2008 — 2012
+    what: BTech, Computer Science & Engineering
+    where: JNTUA, Ananthapur, India
+    note: Distinction.
+
+awards: []

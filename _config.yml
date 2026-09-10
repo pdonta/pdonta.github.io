@@ -1,18 +1,18 @@
 # ---------------------------------------------------------------
-# Site settings. Change these first.
+# Site metadata. Used for search engines and link previews.
+# Day-to-day content lives in the _data/ folder, not here.
 # ---------------------------------------------------------------
 
-title: Amina Ortega
+title: Praveen Kumar Donta
 description: >-
-  Backend engineer working on payments infrastructure.
-  Currently in Stockholm.
+  Senior Lecturer and Associate Professor at the Department of Computer and
+  Systems Sciences, Stockholm University. Distributed computing continuum
+  systems, learning in IoT, and causality in computing systems.
+author: Praveen Kumar Donta
 
-# Replace "yourusername" with your actual GitHub username.
-url: "https://yourusername.github.io"
+url: "https://pdonta.github.io"
 baseurl: ""
 
-# ---------------------------------------------------------------
-# Build settings. You probably don't need to touch these.
 # ---------------------------------------------------------------
 
 plugins:
@@ -23,7 +23,9 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - scripts
   - vendor
+  - .cache
 
 sass:
   style: compressed

@@ -1,0 +1,42 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+{%- assign c = site.data.cv -%}
+
+<div class="phead"><div class="w">
+  <h1>Curriculum vitae</h1>
+  <p>{% if c.pdf %}<a href="{{ c.pdf | relative_url }}">Download as PDF</a> · {% endif %}This page also prints cleanly.</p>
+</div></div>
+
+{%- assign secs = "positions,education,awards" | split: "," -%}
+{%- assign names = "Positions,Education,Awards" | split: "," -%}
+{%- for key in secs -%}
+  {%- assign list = c[key] -%}
+  {%- if list and list.size > 0 -%}
+<section><div class="w">
+  <h2>{{ names[forloop.index0] }}</h2>
+  <div>
+    {%- for e in list -%}
+    <div class="tl">
+      <div class="when">{{ e.when }}</div>
+      <div>
+        <h3>{{ e.what }}</h3>
+        {%- if e.where %}<p class="where">{{ e.where }}</p>{% endif -%}
+        {%- if e.note and e.note != "" %}<p>{{ e.note }}</p>{% endif -%}
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</div></section>
+  {%- endif -%}
+{%- endfor -%}
+
+<section><div class="w">
+  <h2>Publications</h2>
+  <div>
+    <p>{{ site.data.publications.count }} records.
+       <a href="{{ '/publications/' | relative_url }}">See the full list</a>.</p>
+  </div>
+</div></section>

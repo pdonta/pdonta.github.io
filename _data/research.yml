@@ -1,0 +1,52 @@
+# ===============================================================
+# Research page.
+# ===============================================================
+
+intro: >-
+  My work sits between distributed systems and machine learning: building computing
+  continuum infrastructure that observes itself, reasons about why it behaves as it
+  does, and adapts without a human in the loop.
+
+interests:
+  - Distributed computing continuum systems
+  - Learning techniques in IoT
+  - AI/ML for computing systems
+  - Cognition and causality in computing systems
+  - Cyber-physical continuum
+  - Intelligent data protocols
+
+projects:
+  - name: HCSCM — Heterogeneous Computing Continuum for a Sustainable Smart City Management
+    meta: Baltic Sea university consortium
+    url: https://www.su.se/english/research/research-catalogue/research-projects/7/heterogeneous-computing-continuum-for-a-sustainable-smart-city-management-hcscm
+    summary: >-
+      Developing scalable and secure solutions that integrate IoT, edge and cloud
+      computing, with the goal of improving sustainability, energy use and service
+      delivery across diverse urban environments.
+
+  - name: TALENTS — Towards Artificial Intelligence Empowered Green Internet of Things
+    meta: Academic and industry consortium
+    url: https://www.su.se/english/research/research-catalogue/research-projects/9/talents-towards-artificial-intelligence-empowered-green-internet-of-things
+    summary: >-
+      Energy-autonomous IoT for continuous water quality monitoring, combining energy
+      harvesting, efficient communication, TinyML and cloud AI, alongside researcher
+      training.
+
+# Open questions you are working towards. Delete the section if you'd
+# rather not publish it.
+directions:
+  - title: Causality as a first-class systems primitive
+    summary: >-
+      Moving from correlation-driven autoscaling towards infrastructure that can
+      identify why a service degraded and intervene on the cause.
+  - title: Self-healing across heterogeneous continuums
+    summary: >-
+      Bio-inspired and neuro-symbolic approaches to keeping distributed deployments
+      running when the failure was never anticipated at design time.
+
+# People and groups you work with. Add entries as they come up.
+collaborations:
+  - Distributed Systems Group, TU Wien
+  - Center for Ubiquitous Computing, University of Oulu
+  - Mobile & Cloud Lab, University of Tartu
+  - Department of Computer Science, University of Helsinki

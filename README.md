@@ -1,108 +1,118 @@
-# Your personal site
+# pdonta.github.io
 
-A small Jekyll site for a résumé / portfolio, built to run on GitHub Pages
-with no local install and no build step.
-
----
-
-## Putting it online
-
-**1. Create the repository.**
-On GitHub, click **New repository**. Name it exactly:
-
-```
-yourusername.github.io
-```
-
-using your real GitHub username, all lowercase. The name is not cosmetic —
-GitHub only treats a repo as your personal site if it matches your username
-exactly. Set it to **Public** and don't add a README (you already have one).
-
-**2. Upload these files.**
-On the empty repo page, click **uploading an existing file**. Drag in
-everything from this folder — including the `_layouts`, `_data`, and
-`assets` folders. Then click **Commit changes**.
-
-**3. Turn Pages on.**
-Go to **Settings → Pages**. Under *Build and deployment*, set Source to
-**Deploy from a branch**, branch **main**, folder **/ (root)**. Save.
-
-**4. Wait a minute.**
-Your site appears at `https://yourusername.github.io`. The first build
-takes a couple of minutes; later ones are faster. If you see a 404, give
-it five minutes before worrying.
+Personal academic site. Jekyll on GitHub Pages, with the publication list
+rebuilt automatically each week from your ORCID record.
 
 ---
 
-## Changing the content
+## One setting you must change
 
-Almost everything lives in **`_data/resume.yml`**. Open it on GitHub, click
-the pencil icon, edit, and commit. The site rebuilds automatically within
-about a minute.
+Go to **Settings → Pages → Build and deployment → Source** and switch it from
+*Deploy from a branch* to **GitHub Actions**.
 
-Then update **`_config.yml`** — the `title`, `description`, and `url` fields
-are used for search engines and link previews, so they should match your
-real name and username.
+This site builds itself through a workflow (that's what fetches ORCID before
+each build). If Source stays on "Deploy from a branch", the workflow will run
+but its output will never be published.
 
-Two YAML rules that cause almost every problem:
+After changing it, open the **Actions** tab, choose **Build and deploy**, and
+click **Run workflow**. The first run takes a few minutes because it fetches
+every DOI from Crossref. Later runs are fast — results are cached.
+
+---
+
+## Where the content lives
+
+Everything you'll edit is in `_data/`. No HTML, no CSS.
+
+| File | Holds |
+|---|---|
+| `_data/site.yml` | Your name, title, contact details, external links, the menu |
+| `_data/home.yml` | Home page statement, the four figures, background paragraphs |
+| `_data/research.yml` | Interests, projects, directions, collaborations |
+| `_data/teaching.yml` | Courses, PhD students, theses, openings |
+| `_data/service.yml` | Editorial boards, calls, committees, memberships |
+| `_data/news.yml` | News and talks |
+| `_data/cv.yml` | Positions, education, awards |
+| `_data/gallery.yml` | Photo albums |
+| `_data/publications.yml` | **Generated. Do not edit.** |
+
+Edit any of them on GitHub with the pencil icon, commit, and the site rebuilds
+in about a minute.
+
+Two YAML rules cause nearly every problem:
 
 - Indent with **two spaces**, never tabs.
-- If a value contains a colon, wrap it in `"double quotes"`.
+- Wrap a value in `"quotes"` if it contains a colon.
 
-If the site stops rebuilding after an edit, YAML is the first place to
-look. The Actions tab on your repo shows the build error.
-
----
-
-## What each file does
-
-| File | Purpose |
-|---|---|
-| `_data/resume.yml` | All your content. This is the one you'll edit. |
-| `_config.yml` | Site title, description, URL. |
-| `index.html` | Turns the data above into the page. |
-| `_layouts/default.html` | The HTML shell — fonts, meta tags. |
-| `assets/css/style.css` | All styling. Colours are at the top. |
+If a build fails, the Actions tab shows the error.
 
 ---
 
-## Adding a PDF résumé
+## How publications work
 
-Drop the file at `assets/resume.pdf` and the "Résumé (PDF)" link in
-`_data/resume.yml` will work. Or delete that link entry — the page also
-prints cleanly to PDF straight from your browser (Cmd/Ctrl + P), with the
-layout adjusted for paper.
+`scripts/sync_orcid.py` runs before every build:
 
-## Adding another page
+1. Reads your ORCID record for the list of works.
+2. For each work with a DOI, asks Crossref for the author list, journal,
+   volume, issue and pages.
+3. Caches Crossref answers in `.cache/crossref.json`, so a weekly run only
+   fetches what's new.
+4. Writes `_data/publications.yml`, grouped into journal articles, books,
+   chapters, conference papers and preprints.
 
-Create a file like `writing.md` in the root with this at the top:
+Your own name is bolded automatically in every author list.
 
-```
+**To fix a wrong entry, fix it in ORCID, not here.** Anything you change in
+`_data/publications.yml` is overwritten on the next run.
+
+Works without a DOI still appear, using whatever ORCID holds — usually title,
+year and journal name, but no authors. If a paper is missing entirely, it's
+missing from your ORCID record.
+
+The schedule is Mondays at 04:00 UTC, set in
+`.github/workflows/build.yml`. You can also trigger it any time from the
+Actions tab.
+
 ---
-layout: default
-title: Writing
+
+## Common edits
+
+**Add a talk or a news item.** Open `_data/news.yml` and copy the commented
+block at the bottom. `kind` can be Talk, News, Award, Paper or Visit.
+
+**Add a gallery album.** Create `assets/img/gallery/<name>/`, upload photos,
+then add a block to `_data/gallery.yml` listing the filenames. Resize large
+photos first — anything over about 1500px wide just slows the page down.
+
+**Change your photo.** Replace `assets/img/portrait.jpg`, keeping the
+filename. A square image of roughly 900×900 works best. The current one is
+from 2019 and should be swapped for your SU profile photo.
+
+**Add your CV as a PDF.** Put it at `assets/doc/cv.pdf`. The link on the CV
+page is already pointing there.
+
+**Remove a page.** Delete its line from the `nav:` list in `_data/site.yml`.
+The page still exists but disappears from the menu.
+
 ---
 
-Your text here, in Markdown.
-```
+## A note on the old PHP site
 
-It'll be served at `yourusername.github.io/writing`.
-
-## A custom domain
-
-If you own a domain, add a file named `CNAME` containing just the domain
-name (e.g. `aminaortega.com`), then point your DNS at GitHub per their
-custom-domain docs.
+Do not upload the old `htdocs` folder to this or any public repository.
+`htdocs/config.php` contains a plaintext database password and
+`htdocs/lin/.htpasswd` contains a password hash. That password should be
+treated as compromised and changed anywhere it was reused.
 
 ---
 
 ## Previewing locally (optional)
 
-Not required — editing on GitHub works fine. But if you want a local
-preview:
+Not needed — editing on GitHub works fine. But if you want to:
 
 ```bash
 bundle install
+pip install pyyaml
+python3 scripts/sync_orcid.py    # optional, refreshes publications
 bundle exec jekyll serve
 ```
 

@@ -1,0 +1,31 @@
+---
+layout: default
+title: Service
+permalink: /service/
+---
+{%- assign sv = site.data.service -%}
+
+<div class="phead"><div class="w">
+  <h1>Editorial &amp; professional service</h1>
+  <p>Editorial boards, special issues and committee work.</p>
+</div></div>
+
+{%- assign blocks = "editorial,calls,committees,reviewing,memberships" | split: "," -%}
+{%- assign titles = "Editorial boards,Calls for papers,Committees,Reviewing,Memberships" | split: "," -%}
+
+{%- for key in blocks -%}
+  {%- assign list = sv[key] -%}
+  {%- if list and list.size > 0 -%}
+<section><div class="w">
+  <h2>{{ titles[forloop.index0] }}</h2>
+  <ul class="svc">
+    {%- for item in list -%}
+    <li>
+      <div>{% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</div>
+      {%- if item.role %}<span>{{ item.role }}</span>{% endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</div></section>
+  {%- endif -%}
+{%- endfor -%}

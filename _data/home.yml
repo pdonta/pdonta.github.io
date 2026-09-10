@@ -1,0 +1,33 @@
+# ===============================================================
+# Home page content.
+# ===============================================================
+
+# One or two sentences. This is the line people actually read.
+statement: >-
+  I study how computing systems can learn, reason about cause, and adapt themselves
+  across the continuum from sensor to edge to cloud — and what it takes to make that
+  behaviour dependable at city scale.
+
+# The four figures in the band under the header.
+# Publications count is filled in automatically from your ORCID sync.
+stats:
+  - value: auto-publications
+    label: Peer-reviewed publications
+  - value: "5"
+    label: Journal editorial boards
+  - value: "2"
+    label: PhD students supervised
+  - value: "2"
+    label: Active research projects
+
+background:
+  - >-
+    Postdoctoral researcher in the Distributed Systems Group at TU Wien from July 2021
+    to June 2024. PhD in Computer Science & Engineering from the Indian Institute of
+    Technology (ISM) Dhanbad, June 2021, with a visiting fellowship at the Mobile &
+    Cloud Lab, University of Tartu. MTech and BTech from JNTUA, Ananthapur.
+  - >-
+    IEEE Senior Member and ACM Professional Member.
+
+# How many recent publications to show on the home page.
+recent_count: 5

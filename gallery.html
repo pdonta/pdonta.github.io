@@ -1,0 +1,29 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+---
+<div class="phead"><div class="w">
+  <h1>Gallery</h1>
+  <p>Conferences, visits and places along the way.</p>
+</div></div>
+
+<section><div class="w">
+  <h2>Albums</h2>
+  <div>
+    {%- for al in site.data.gallery.albums -%}
+    <div class="album">
+      <h3>{{ al.name }}</h3>
+      {%- if al.caption %}<p class="cap">{{ al.caption }}</p>{% endif -%}
+      <div class="shots">
+        {%- for ph in al.photos -%}
+        <a href="{{ '/assets/img/gallery/' | append: al.dir | append: '/' | append: ph | relative_url }}">
+          <img src="{{ '/assets/img/gallery/' | append: al.dir | append: '/' | append: ph | relative_url }}"
+               alt="{{ al.name }}" loading="lazy">
+        </a>
+        {%- endfor -%}
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</div></section>

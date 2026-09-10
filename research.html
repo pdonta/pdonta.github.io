@@ -1,0 +1,51 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+{%- assign r = site.data.research -%}
+
+<div class="phead"><div class="w">
+  <h1>Research</h1>
+  <p>{{ r.intro }}</p>
+</div></div>
+
+<section><div class="w">
+  <h2>Interests</h2>
+  <div class="grid2">
+    {%- assign half = r.interests.size | divided_by: 2.0 | ceil -%}
+    <ul class="ri">{% for i in r.interests limit: half %}<li>{{ i }}</li>{% endfor %}</ul>
+    <ul class="ri">{% for i in r.interests offset: half %}<li>{{ i }}</li>{% endfor %}</ul>
+  </div>
+</div></section>
+
+<section><div class="w">
+  <h2>Projects</h2>
+  <div>
+    {%- for pr in r.projects -%}
+    <div class="block">
+      <h3>{% if pr.url %}<a href="{{ pr.url }}">{{ pr.name }}</a>{% else %}{{ pr.name }}{% endif %}</h3>
+      {%- if pr.meta %}<p class="meta">{{ pr.meta }}</p>{% endif -%}
+      <p>{{ pr.summary }}</p>
+    </div>
+    {%- endfor -%}
+  </div>
+</div></section>
+
+{%- if r.directions and r.directions.size > 0 -%}
+<section><div class="w">
+  <h2>Directions</h2>
+  <div>
+    {%- for d in r.directions -%}
+    <div class="block"><h3>{{ d.title }}</h3><p>{{ d.summary }}</p></div>
+    {%- endfor -%}
+  </div>
+</div></section>
+{%- endif -%}
+
+{%- if r.collaborations and r.collaborations.size > 0 -%}
+<section><div class="w">
+  <h2>Collaborations</h2>
+  <ul class="ri">{% for c in r.collaborations %}<li>{{ c }}</li>{% endfor %}</ul>
+</div></section>
+{%- endif -%}

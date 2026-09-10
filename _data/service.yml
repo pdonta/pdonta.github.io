@@ -1,0 +1,38 @@
+# ===============================================================
+# Editorial work, reviewing, committees.
+# ===============================================================
+
+editorial:
+  - name: IEEE Network Magazine
+    role: Editorial board
+    url: https://www.comsoc.org/publications/magazines/ieee-network/editorial-board
+  - name: IEEE Internet of Things Journal
+    role: Editorial board
+    url: https://ieee-iotj.org/editorial-board/
+  - name: Computing, Springer
+    role: Editorial board
+    url: https://link.springer.com/journal/607/editorial-board
+  - name: Scientific Reports, Nature
+    role: Editorial board
+    url: https://www.nature.com/srep/about/editors
+  - name: Transactions on Emerging Telecommunications Technologies, Wiley
+    role: Editorial board
+    url: https://onlinelibrary.wiley.com/page/journal/21613915/homepage/editorialboard.html
+
+# Open calls for papers. Remove entries once they close.
+calls:
+  - name: AI-native networking for resource constrained Edge or IoT
+    role: Special issue
+    url: https://onlinelibrary.wiley.com/page/journal/24761508/homepage/call-for-papers/si-2025-001313
+
+# Conference committees, chairing, panels.
+committees: []
+
+# Journals you review for regularly.
+reviewing: []
+
+memberships:
+  - name: IEEE
+    role: Senior Member
+  - name: ACM
+    role: Professional Member

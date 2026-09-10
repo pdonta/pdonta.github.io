@@ -1,101 +1,94 @@
 ---
 layout: default
+title: Home
 ---
+{%- assign s = site.data.site -%}
+{%- assign h = site.data.home -%}
 
-{%- assign r = site.data.resume -%}
+<div class="hero"><div class="w">
+  <div>
+    <h1>{{ s.name }}</h1>
+    <p class="role"><b>{{ s.title }}</b><br>{{ s.department }}, {{ s.university }}</p>
+    <p class="stmt">{{ h.statement }}</p>
+    <div class="chips">
+      <a href="mailto:{{ s.email }}">{{ s.email }}</a>
+      {%- for l in s.links limit: 5 %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor -%}
+    </div>
+  </div>
+  <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="{{ s.name }}">
+</div></div>
 
-<header class="masthead">
-  <h1 class="name">{{ r.name }}</h1>
-  <p class="intro">{{ r.intro }}</p>
-  {%- if r.links -%}
-  <ul class="links">
-    {%- for link in r.links -%}
-    <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+<div class="strip"><div class="w">
+  {%- for st in h.stats -%}
+  <div>
+    <div class="n">{% if st.value == 'auto-publications' %}{{ site.data.publications.count }}{% else %}{{ st.value }}{% endif %}</div>
+    <div class="l">{{ st.label }}</div>
+  </div>
+  {%- endfor -%}
+</div></div>
+
+<section><div class="w">
+  <h2>Background</h2>
+  <div>
+    {%- for para in h.background %}<p>{{ para }}</p>{% endfor -%}
+  </div>
+</div></section>
+
+<section><div class="w">
+  <h2><a href="{{ '/research/' | relative_url }}">Research interests</a></h2>
+  <div class="grid2">
+    {%- assign half = site.data.research.interests.size | divided_by: 2.0 | ceil -%}
+    <ul class="ri">{% for i in site.data.research.interests limit: half %}<li>{{ i }}</li>{% endfor %}</ul>
+    <ul class="ri">{% for i in site.data.research.interests offset: half %}<li>{{ i }}</li>{% endfor %}</ul>
+  </div>
+</div></section>
+
+<section><div class="w">
+  <h2><a href="{{ '/research/' | relative_url }}">Projects</a></h2>
+  <div>
+    {%- for pr in site.data.research.projects -%}
+    <div class="block">
+      <h3>{% if pr.url %}<a href="{{ pr.url }}">{{ pr.name }}</a>{% else %}{{ pr.name }}{% endif %}</h3>
+      {%- if pr.meta %}<p class="meta">{{ pr.meta }}</p>{% endif -%}
+      <p>{{ pr.summary }}</p>
+    </div>
     {%- endfor -%}
-  </ul>
-  {%- endif -%}
-</header>
+  </div>
+</div></section>
 
-{%- if r.experience -%}
-<section id="experience">
-  <h2>Experience</h2>
-  <div class="body">
-    {%- for job in r.experience -%}
-    <article class="entry">
-      <div class="entry-head">
-        <h3>{{ job.role }}{% if job.org %}, {{ job.org }}{% endif %}</h3>
-        <span class="when">{{ job.when }}</span>
+<section><div class="w">
+  <h2>Recent work</h2>
+  <div>
+    {%- for p in site.data.publications.recent limit: h.recent_count -%}
+      {%- include pub.html p=p -%}
+    {%- else -%}
+      <p class="note">The publication list has not synced yet. It fills in automatically
+      from ORCID once the workflow runs.</p>
+    {%- endfor -%}
+    <p style="margin-top:.9rem;font-size:.88rem"><a href="{{ '/publications/' | relative_url }}">Full publication list</a></p>
+  </div>
+</div></section>
+
+<section><div class="w">
+  <h2><a href="{{ '/news/' | relative_url }}">Latest</a></h2>
+  <div>
+    {%- for n in site.data.news.items limit: 3 -%}
+    <div class="news">
+      <div class="d">{{ n.date }}</div>
+      <div>
+        {%- if n.kind %}<div class="k">{{ n.kind }}</div>{% endif -%}
+        <h3>{% if n.url %}<a href="{{ n.url }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</h3>
+        {%- if n.summary %}<p>{{ n.summary }}</p>{% endif -%}
       </div>
-      {%- if job.where %}<p class="where">{{ job.where }}</p>{% endif -%}
-      {%- if job.summary %}<p>{{ job.summary }}</p>{% endif -%}
-      {%- if job.points -%}
-      <ul class="points">
-        {%- for point in job.points -%}
-        <li>{{ point }}</li>
-        {%- endfor -%}
-      </ul>
-      {%- endif -%}
-    </article>
+    </div>
     {%- endfor -%}
   </div>
-</section>
-{%- endif -%}
+</div></section>
 
-{%- if r.projects -%}
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="body">
-    {%- for p in r.projects -%}
-    <article class="entry">
-      <div class="entry-head">
-        <h3>
-          {%- if p.url -%}
-            <a href="{{ p.url }}">{{ p.name }}</a>
-          {%- else -%}
-            {{ p.name }}
-          {%- endif -%}
-        </h3>
-        {%- if p.when %}<span class="when">{{ p.when }}</span>{% endif -%}
-      </div>
-      {%- if p.summary %}<p>{{ p.summary }}</p>{% endif -%}
-    </article>
-    {%- endfor -%}
+<section><div class="w">
+  <h2>Contact</h2>
+  <div>
+    <p><a href="mailto:{{ s.email }}">{{ s.email }}</a> · {{ s.phone }}</p>
+    <p class="note">{{ s.office }}<br>{{ s.postal }}<br>Office hours {{ s.hours }}</p>
   </div>
-</section>
-{%- endif -%}
-
-{%- if r.skills -%}
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="body">
-    <dl class="skills">
-      {%- for s in r.skills -%}
-      <dt>{{ s.group }}</dt>
-      <dd>{{ s.items }}</dd>
-      {%- endfor -%}
-    </dl>
-  </div>
-</section>
-{%- endif -%}
-
-{%- if r.education -%}
-<section id="education">
-  <h2>Education</h2>
-  <div class="body">
-    {%- for e in r.education -%}
-    <article class="entry">
-      <div class="entry-head">
-        <h3>{{ e.what }}{% if e.org %}, {{ e.org }}{% endif %}</h3>
-        {%- if e.when %}<span class="when">{{ e.when }}</span>{% endif -%}
-      </div>
-    </article>
-    {%- endfor -%}
-  </div>
-</section>
-{%- endif -%}
-
-{%- if r.closing -%}
-<footer class="closing">
-  <p>{{ r.closing }}</p>
-</footer>
-{%- endif -%}
+</div></section>

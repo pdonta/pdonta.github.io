@@ -1,0 +1,7 @@
+<footer class="site"><div class="w">
+  <div>{{ site.data.site.affiliation }}</div>
+  <div>
+    <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a>
+    {%- if site.data.site.orcid %} · <a href="https://orcid.org/{{ site.data.site.orcid }}">ORCID</a>{% endif -%}
+  </div>
+</div></footer>

@@ -1,0 +1,8 @@
+<div class="top"><div class="w">
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.site.name }}</a>
+  <nav>
+    {%- for item in site.data.site.nav -%}
+    <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="on" aria-current="page"{% endif %}>{{ item.label }}</a>
+    {%- endfor -%}
+  </nav>
+</div></div>

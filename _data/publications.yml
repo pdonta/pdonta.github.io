@@ -1,0 +1,9 @@
+# GENERATED FILE — do not edit by hand.
+# Rebuilt from ORCID by scripts/sync_orcid.py on every deploy.
+# This placeholder is replaced the first time the workflow runs.
+
+generated: not yet synced
+source: https://orcid.org/0000-0002-8233-6071
+count: 0
+recent: []
+groups: []

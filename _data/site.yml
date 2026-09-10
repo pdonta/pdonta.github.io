@@ -1,0 +1,55 @@
+# ===============================================================
+# Identity and contact. Used across every page.
+# ===============================================================
+
+name: Praveen Kumar Donta
+title: Senior Lecturer, Associate Professor (Docent)
+department: Department of Computer and Systems Sciences
+university: Stockholm University
+affiliation: Stockholm University · Department of Computer and Systems Sciences · Kista
+
+email: praveen.donta@dsv.su.se
+phone: "+46 8 16 16 31"
+office: Nodhuset, Borgarfjordsgatan 12
+postal: 164 25 Kista, Sweden
+hours: 9.00 – 17.00
+
+orcid: 0000-0002-8233-6071
+
+# Shown under your name on the home page. Add or remove freely.
+links:
+  - label: Google Scholar
+    url: https://scholar.google.se/citations?user=sy4EMUIAAAAJ&hl=en
+  - label: ORCID
+    url: https://orcid.org/0000-0002-8233-6071
+  - label: DBLP
+    url: https://dblp.org/pid/284/1267.html
+  - label: Scopus
+    url: https://www.scopus.com/authid/detail.uri?authorId=57214445448
+  - label: Web of Science
+    url: https://www.webofscience.com/wos/author/record/H-3021-2017
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/pdonta/
+  - label: GitHub
+    url: https://github.com/pdonta
+  - label: SU profile
+    url: https://www.su.se/english/profiles/p/prdo2937
+
+# Top navigation. Remove a line to drop the page from the menu.
+nav:
+  - label: Home
+    url: /
+  - label: Research
+    url: /research/
+  - label: Publications
+    url: /publications/
+  - label: Teaching
+    url: /teaching/
+  - label: Service
+    url: /service/
+  - label: News & talks
+    url: /news/
+  - label: CV
+    url: /cv/
+  - label: Gallery
+    url: /gallery/
