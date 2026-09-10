@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+{%- assign r = site.data.resume -%}
+
+<header class="masthead">
+  <h1 class="name">{{ r.name }}</h1>
+  <p class="intro">{{ r.intro }}</p>
+  {%- if r.links -%}
+  <ul class="links">
+    {%- for link in r.links -%}
+    <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</header>
+
+{%- if r.experience -%}
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="body">
+    {%- for job in r.experience -%}
+    <article class="entry">
+      <div class="entry-head">
+        <h3>{{ job.role }}{% if job.org %}, {{ job.org }}{% endif %}</h3>
+        <span class="when">{{ job.when }}</span>
+      </div>
+      {%- if job.where %}<p class="where">{{ job.where }}</p>{% endif -%}
+      {%- if job.summary %}<p>{{ job.summary }}</p>{% endif -%}
+      {%- if job.points -%}
+      <ul class="points">
+        {%- for point in job.points -%}
+        <li>{{ point }}</li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
+
+{%- if r.projects -%}
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="body">
+    {%- for p in r.projects -%}
+    <article class="entry">
+      <div class="entry-head">
+        <h3>
+          {%- if p.url -%}
+            <a href="{{ p.url }}">{{ p.name }}</a>
+          {%- else -%}
+            {{ p.name }}
+          {%- endif -%}
+        </h3>
+        {%- if p.when %}<span class="when">{{ p.when }}</span>{% endif -%}
+      </div>
+      {%- if p.summary %}<p>{{ p.summary }}</p>{% endif -%}
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
+
+{%- if r.skills -%}
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="body">
+    <dl class="skills">
+      {%- for s in r.skills -%}
+      <dt>{{ s.group }}</dt>
+      <dd>{{ s.items }}</dd>
+      {%- endfor -%}
+    </dl>
+  </div>
+</section>
+{%- endif -%}
+
+{%- if r.education -%}
+<section id="education">
+  <h2>Education</h2>
+  <div class="body">
+    {%- for e in r.education -%}
+    <article class="entry">
+      <div class="entry-head">
+        <h3>{{ e.what }}{% if e.org %}, {{ e.org }}{% endif %}</h3>
+        {%- if e.when %}<span class="when">{{ e.when }}</span>{% endif -%}
+      </div>
+    </article>
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
+
+{%- if r.closing -%}
+<footer class="closing">
+  <p>{{ r.closing }}</p>
+</footer>
+{%- endif -%}

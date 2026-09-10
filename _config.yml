@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------
+# Site settings. Change these first.
+# ---------------------------------------------------------------
+
+title: Amina Ortega
+description: >-
+  Backend engineer working on payments infrastructure.
+  Currently in Stockholm.
+
+# Replace "yourusername" with your actual GitHub username.
+url: "https://yourusername.github.io"
+baseurl: ""
+
+# ---------------------------------------------------------------
+# Build settings. You probably don't need to touch these.
+# ---------------------------------------------------------------
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+sass:
+  style: compressed

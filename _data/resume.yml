@@ -1,0 +1,113 @@
+# ===============================================================
+# This file holds everything that appears on your site.
+# Edit it and the site updates. You should not need to touch
+# any HTML or CSS to keep this current.
+#
+# YAML rules that matter: indentation is two spaces, never tabs.
+# If a line of text contains a colon, wrap it in "quotes".
+# ===============================================================
+
+name: Amina Ortega
+
+# One or two sentences under your name. Write it as a real sentence,
+# not a list of keywords. This is the thing people actually read.
+intro: >-
+  I build payment systems that move money between banks without losing any
+  of it. Seven years in backend engineering, mostly Go and Postgres, mostly
+  in places where being wrong is expensive.
+
+# Small links under the intro. Delete any you don't want.
+# Add more by copying the pattern.
+links:
+  - label: Email
+    url: mailto:you@example.com
+  - label: GitHub
+    url: https://github.com/yourusername
+  - label: LinkedIn
+    url: https://linkedin.com/in/yourprofile
+  - label: Résumé (PDF)
+    url: /assets/resume.pdf
+
+# ---------------------------------------------------------------
+# Work history. Newest first.
+# ---------------------------------------------------------------
+experience:
+  - role: Senior Backend Engineer
+    org: Klarna
+    when: 2022 — now
+    where: Stockholm
+    summary: >-
+      Own the settlement service that reconciles roughly 40 million
+      transactions a day against bank statements.
+    points:
+      - Cut end-of-day reconciliation from 6 hours to 25 minutes by
+        replacing a nightly batch job with an incremental ledger.
+      - Led the migration of 14 services off a shared Postgres instance,
+        with no downtime and no data loss.
+      - Mentor two junior engineers; run the team's on-call review.
+
+  - role: Backend Engineer
+    org: Tink
+    when: 2019 — 2022
+    where: Stockholm
+    summary: >-
+      Worked on the bank connectivity layer, integrating with 60+ European
+      banks that each interpreted the same standard differently.
+    points:
+      - Built the retry and idempotency framework still used across the
+        platform.
+      - Reduced integration failure rate from 4% to under 0.5%.
+
+  - role: Software Engineer
+    org: Bolt
+    when: 2017 — 2019
+    where: Tallinn
+    summary: >-
+      First backend hire on the driver payouts team.
+    points:
+      - Shipped the payout scheduling service handling €30M/month.
+
+# ---------------------------------------------------------------
+# Projects. Delete this whole section if you don't want it.
+# ---------------------------------------------------------------
+projects:
+  - name: ledgerkit
+    when: 2024
+    url: https://github.com/yourusername/ledgerkit
+    summary: >-
+      A small Go library for double-entry bookkeeping with strict balance
+      invariants. Used in production by three companies I know of and
+      probably some I don't.
+
+  - name: Postgres index advisor
+    when: 2023
+    url: https://github.com/yourusername/pgadvisor
+    summary: >-
+      Reads your query logs and tells you which indexes you're missing and
+      which ones you're paying for but never using.
+
+# ---------------------------------------------------------------
+# Skills, grouped. Keep the groups short and honest.
+# ---------------------------------------------------------------
+skills:
+  - group: Languages
+    items: Go, Python, SQL, TypeScript
+  - group: Infrastructure
+    items: Postgres, Kafka, Kubernetes, Terraform, AWS
+  - group: Also
+    items: Distributed systems, payments and ledger design, on-call practice
+
+# ---------------------------------------------------------------
+# Education. Delete if not relevant.
+# ---------------------------------------------------------------
+education:
+  - what: MSc Computer Science
+    org: KTH Royal Institute of Technology
+    when: 2015 — 2017
+
+# ---------------------------------------------------------------
+# Closing line in the footer.
+# ---------------------------------------------------------------
+closing: >-
+  Open to conversations about payments infrastructure, ledger design, or
+  anything involving money that has to add up.
