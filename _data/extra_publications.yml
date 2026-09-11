@@ -11,15 +11,15 @@
 
 items:
   - title: "Computing Continuum: A Quantitative Guide"
-    authors: "<b>P. K. Donta</b>"
+    authors: "<b>P. K. Donta</b> and, S. Dustdar"
     venue: Springer
     detail: in preparation
     year: 2027
     type: book
 
   - title: Learning Techniques for the Internet of Things
-    authors: "<b>P. K. Donta</b>"
+    authors: "<b>P. K. Donta</b>, A. Hazra, L. Lovén"
     venue: Springer
     year: 2025
     type: book
-    url: ""
+    url: "https://doi.org/10.1007/978-3-031-50514-0"
