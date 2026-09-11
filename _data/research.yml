@@ -58,14 +58,16 @@ directions:
 
 # PhD students and openings sit here, alongside the work itself.
 phd_students:
-  - name: Shubham Vaishnav
-    role: Co-supervisor
-    status: Completed
-    url: https://www.su.se/english/profiles/shva2279-1.569025
   - name: Alfreds Lapkovskis
     role: Supervisor
     status: Ongoing
     url: https://www.su.se/english/profiles/alla1854-1.780878
+  - name: Shubham Vaishnav
+    role: Co-supervisor
+    status: Completed
+    url: https://www.su.se/english/profiles/shva2279-1.569025
+    topic: AI-Driven Multi-objective Decision-Making With Applications to IoT
+    thesis_url: https://su.diva-portal.org/smash/record.jsf?pid=diva2%3A2052324&dswid=-4917
 
 # Delete this whole block when the position closes.
 opening:
