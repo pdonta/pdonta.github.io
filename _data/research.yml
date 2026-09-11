@@ -3,50 +3,87 @@
 # ===============================================================
 
 intro: >-
-  My work sits between distributed systems and machine learning: building computing
-  continuum infrastructure that observes itself, reasons about why it behaves as it
-  does, and adapts without a human in the loop.
+  My work sits between distributed systems and machine learning. I build computing
+  continuum infrastructure that observes its own behaviour, reasons about the causes
+  behind it, and adapts without a human in the loop. A large part of that is the
+  communication layer itself: intelligent data protocols and application-layer designs
+  that decide what gets sent, when, and to which tier, rather than moving everything
+  to the cloud and paying for it in energy and latency.
 
 interests:
   - Distributed computing continuum systems
+  - Intelligent data and application-layer protocols
   - Learning techniques in IoT
   - AI/ML for computing systems
   - Cognition and causality in computing systems
   - Cyber-physical continuum
-  - Intelligent data protocols
 
 projects:
-  - name: HCSCM — Heterogeneous Computing Continuum for a Sustainable Smart City Management
-    meta: Baltic Sea university consortium
-    url: https://www.su.se/english/research/research-catalogue/research-projects/7/heterogeneous-computing-continuum-for-a-sustainable-smart-city-management-hcscm
-    summary: >-
-      Developing scalable and secure solutions that integrate IoT, edge and cloud
-      computing, with the goal of improving sustainability, energy use and service
-      delivery across diverse urban environments.
-
   - name: TALENTS — Towards Artificial Intelligence Empowered Green Internet of Things
-    meta: Academic and industry consortium
+    meta: EU Marie Skłodowska-Curie Actions Staff Exchange · ongoing
     url: https://www.su.se/english/research/research-catalogue/research-projects/9/talents-towards-artificial-intelligence-empowered-green-internet-of-things
     summary: >-
       Energy-autonomous IoT for continuous water quality monitoring, combining energy
-      harvesting, efficient communication, TinyML and cloud AI, alongside researcher
-      training.
+      harvesting, efficient communication, TinyML and cloud AI. The project targets UN
+      Sustainable Development Goal 6 and includes researcher training across EU and
+      non-EU partners.
 
-# Open questions you are working towards. Delete the section if you'd
-# rather not publish it.
+  - name: HCSCM — Heterogeneous Computing Continuum for a Sustainable Smart City Management
+    meta: Baltic Sea university consortium · completed
+    url: https://www.su.se/english/research/research-catalogue/research-projects/7/heterogeneous-computing-continuum-for-a-sustainable-smart-city-management-hcscm
+    summary: >-
+      Scalable and secure integration of IoT, edge and cloud computing, aimed at
+      improving sustainability, energy use and service delivery across diverse urban
+      environments.
+
 directions:
-  - title: Causality as a first-class systems primitive
+  - title: Resilience in the computing continuum
     summary: >-
-      Moving from correlation-driven autoscaling towards infrastructure that can
-      identify why a service degraded and intervene on the cause.
-  - title: Self-healing across heterogeneous continuums
-    summary: >-
-      Bio-inspired and neuro-symbolic approaches to keeping distributed deployments
-      running when the failure was never anticipated at design time.
+      Keeping heterogeneous deployments running through failures that were never
+      anticipated at design time — detection, isolation and recovery that do not
+      depend on a central controller staying reachable.
 
-# People and groups you work with. Add entries as they come up.
+  - title: Human-body-inspired computing systems
+    summary: >-
+      Borrowing from how biological systems regulate themselves: local reflexes,
+      homeostasis, and healing that proceeds without instruction from the centre.
+      The question is which of these mechanisms translate usefully into distributed
+      infrastructure, and which are only appealing as metaphors.
+
+  - title: CrowMQ
+    image: /assets/img/crowmq.gif
+    image_alt: CrowMQ logo
+    summary: >-
+      A messaging layer for the continuum, currently in development. The goal is
+      brokering that adapts its routing and delivery guarantees to what the network
+      and the devices can actually sustain at that moment.
+
+# PhD students and openings sit here, alongside the work itself.
+phd_students:
+  - name: Shubham Vaishnav
+    role: Co-supervisor
+    status: Completed
+    url: https://www.su.se/english/profiles/shva2279-1.569025
+  - name: Alfreds Lapkovskis
+    role: Supervisor
+    status: Ongoing
+    url: https://www.su.se/english/profiles/alla1854-1.780878
+
+# Delete this whole block when the position closes.
+opening:
+  title: PhD student in Computer and Systems Sciences — Internet of Things and machine learning
+  url: https://su.varbi.com/en/what:job/jobID:965933/where:4
+  deadline: 15 October 2026
+  summary: >-
+    Resource-efficient AI/ML on device for IoT systems: multimodal models over sensor
+    time series, images, audio and text; quantisation, compression and adaptive
+    inference on constrained hardware; and subgroup fairness across users, devices
+    and operating conditions. Fully funded, four years, based at DSV in Kista.
+
 collaborations:
   - Distributed Systems Group, TU Wien
   - Center for Ubiquitous Computing, University of Oulu
-  - Mobile & Cloud Lab, University of Tartu
   - Department of Computer Science, University of Helsinki
+  - IISER Berhampur, India
+  - University of Pisa, Italy
+  - Faculty of Technical Sciences, University of Novi Sad, Serbia

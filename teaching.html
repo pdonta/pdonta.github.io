@@ -1,65 +1,31 @@
 ---
 layout: default
-title: Teaching & supervision
+title: Teaching
 permalink: /teaching/
 ---
 {%- assign t = site.data.teaching -%}
 
 <div class="phead"><div class="w">
-  <h1>Teaching &amp; supervision</h1>
+  <h1>Teaching</h1>
   <p>{{ t.intro }}</p>
 </div></div>
 
-{%- if t.courses and t.courses.size > 0 -%}
 <section><div class="w">
   <h2>Courses</h2>
-  <div>
+  <ul class="svc">
     {%- for c in t.courses -%}
-    <div class="tl">
-      <div class="when">{{ c.term }}</div>
-      <div>
-        <h3>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</h3>
-        {%- if c.role %}<p class="where">{{ c.role }}</p>{% endif -%}
-        {%- if c.summary and c.summary != "" %}<p>{{ c.summary }}</p>{% endif -%}
-      </div>
-    </div>
+    <li>
+      <div>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</div>
+      {%- if c.term %}<span>{{ c.term }}</span>{% endif -%}
+    </li>
     {%- endfor -%}
-  </div>
+  </ul>
 </div></section>
-{%- endif -%}
 
-{%- if t.phd_students and t.phd_students.size > 0 -%}
 <section><div class="w">
-  <h2>PhD students</h2>
+  <h2>Supervision</h2>
   <div>
-    {%- for st in t.phd_students -%}
-    <div class="block">
-      <h3>{% if st.url %}<a href="{{ st.url }}">{{ st.name }}</a>{% else %}{{ st.name }}{% endif %}</h3>
-      <p class="meta">{{ st.role }}</p>
-      {%- if st.topic and st.topic != "" %}<p>{{ st.topic }}</p>{% endif -%}
-    </div>
-    {%- endfor -%}
+    <p>PhD students and open positions are listed on the
+       <a href="{{ '/research/' | relative_url }}">research page</a>.</p>
   </div>
 </div></section>
-{%- endif -%}
-
-{%- if t.theses and t.theses.size > 0 -%}
-<section><div class="w">
-  <h2>Theses supervised</h2>
-  <div>
-    {%- for th in t.theses -%}
-    <div class="tl">
-      <div class="when">{{ th.year }}</div>
-      <div><h3>{{ th.title }}</h3><p class="where">{{ th.student }}{% if th.level %} · {{ th.level }}{% endif %}</p></div>
-    </div>
-    {%- endfor -%}
-  </div>
-</div></section>
-{%- endif -%}
-
-{%- if t.opportunities -%}
-<section><div class="w">
-  <h2>Openings</h2>
-  <div><p>{{ t.opportunities }}</p></div>
-</div></section>
-{%- endif -%}

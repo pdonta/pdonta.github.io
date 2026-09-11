@@ -5,7 +5,7 @@ permalink: /news/
 ---
 <div class="phead"><div class="w">
   <h1>News &amp; talks</h1>
-  <p>Recent activity, invited talks and announcements.</p>
+  <p>Invited talks, project news and announcements.</p>
 </div></div>
 
 <section><div class="w">
@@ -19,6 +19,9 @@ permalink: /news/
         <h3>{% if n.url %}<a href="{{ n.url }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</h3>
         {%- if n.where %}<p>{{ n.where }}</p>{% endif -%}
         {%- if n.summary %}<p>{{ n.summary }}</p>{% endif -%}
+        {%- if n.links -%}
+        <p class="links">{% for l in n.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+        {%- endif -%}
       </div>
     </div>
     {%- else -%}

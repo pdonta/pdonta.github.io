@@ -2,9 +2,6 @@
 # CV page. Newest first within each section.
 # ===============================================================
 
-# Put a PDF at assets/doc/cv.pdf to switch this link on.
-pdf: /assets/doc/cv.pdf
-
 positions:
   - when: 2024 — present
     what: Senior Lecturer, Associate Professor (Docent)

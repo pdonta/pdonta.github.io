@@ -19,16 +19,14 @@ editorial:
     role: Editorial board
     url: https://onlinelibrary.wiley.com/page/journal/21613915/homepage/editorialboard.html
 
-# Open calls for papers. Remove entries once they close.
+# Open calls only — delete an entry once it closes.
+# Put the submission deadline in `role` so it shows on the right.
 calls:
-  - name: AI-native networking for resource constrained Edge or IoT
-    role: Special issue
-    url: https://onlinelibrary.wiley.com/page/journal/24761508/homepage/call-for-papers/si-2025-001313
+  - name: "Intent-based Agentic AI for Next Generation Networking — special issue, Computer Networks (Elsevier)"
+    role: Guest editor
+    url: https://www.sciencedirect.com/special-issue/329779/intent-based-agentic-ai-for-next-generation-networking
 
-# Conference committees, chairing, panels.
 committees: []
-
-# Journals you review for regularly.
 reviewing: []
 
 memberships:

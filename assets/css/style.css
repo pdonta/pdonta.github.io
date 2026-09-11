@@ -76,7 +76,7 @@ img { max-width: 100%; }
 .stmt { font-size: 1.1rem; line-height: 1.55; max-width: 38rem; margin: 0; }
 .hero img {
   width: 13rem; height: 15.4rem; object-fit: cover; object-position: 50% 15%;
-  display: block; filter: grayscale(1) contrast(1.04);
+  display: block;
 }
 .chips { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; margin-top: 1.5rem; font-size: .85rem; }
 
@@ -229,3 +229,23 @@ footer.site a { color: var(--soft); }
   .hero h1 { font-size: 22pt; }
   .pub, .tl, .news, .block { break-inside: avoid; }
 }
+
+/* --- Additions ---------------------------------------------------- */
+
+/* Citation count under a publication */
+.pub .cites {
+  font-size: .78rem; color: var(--soft); margin-top: .12rem;
+}
+
+/* Project / product logo inside a Directions block */
+.block .logo {
+  display: block; height: 3.1rem; width: auto;
+  margin: 0 0 .7rem; object-fit: contain; object-position: left center;
+}
+
+/* Secondary label beside a name in a two-part row */
+.svc li .sub { color: var(--soft); font-size: .84rem; margin-left: .45rem; }
+
+/* Slides / video links under a talk */
+.news .links { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; margin-top: .35rem; font-size: .85rem; }
+.news .links a { color: var(--accent); }

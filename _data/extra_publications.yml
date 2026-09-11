@@ -1,0 +1,25 @@
+# ===============================================================
+# Works that are NOT in your ORCID record — books in press,
+# anything ORCID doesn't have yet. These are merged into the
+# publication list on every sync.
+#
+# Once something lands in ORCID with a DOI, DELETE it from here,
+# or it will appear twice.
+#
+# type: book | book-chapter | journal-article | conference-paper
+# ===============================================================
+
+items:
+  - title: "Computing Continuum: A Quantitative Guide"
+    authors: "<b>P. K. Donta</b>"
+    venue: Springer
+    detail: in preparation
+    year: 2027
+    type: book
+
+  - title: Learning Techniques for the Internet of Things
+    authors: "<b>P. K. Donta</b>"
+    venue: Springer
+    year: 2025
+    type: book
+    url: ""

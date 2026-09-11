@@ -11,8 +11,7 @@ title: Home
     <p class="role"><b>{{ s.title }}</b><br>{{ s.department }}, {{ s.university }}</p>
     <p class="stmt">{{ h.statement }}</p>
     <div class="chips">
-      <a href="mailto:{{ s.email }}">{{ s.email }}</a>
-      {%- for l in s.links limit: 5 %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor -%}
+      {%- for l in s.links limit: 6 %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor -%}
     </div>
   </div>
   <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="{{ s.name }}">
@@ -57,15 +56,29 @@ title: Home
 </div></section>
 
 <section><div class="w">
-  <h2>Recent work</h2>
+  <h2>Selected work</h2>
   <div>
-    {%- for p in site.data.publications.recent limit: h.recent_count -%}
-      {%- include pub.html p=p -%}
+    {%- comment -%}
+      If featured_dois is set in _data/home.yml, show exactly those.
+      Otherwise fall back to the most recent entries.
+    {%- endcomment -%}
+    {%- assign shown = 0 -%}
+    {%- if h.featured_dois and h.featured_dois.size > 0 -%}
+      {%- for doi in h.featured_dois -%}
+        {%- for item in site.data.publications.recent -%}
+          {%- if item.url contains doi -%}{%- include pub.html p=item -%}{%- assign shown = 1 -%}{%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
     {%- else -%}
+      {%- for item in site.data.publications.recent limit: h.recent_count -%}
+        {%- include pub.html p=item -%}{%- assign shown = 1 -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {%- if shown == 0 -%}
       <p class="note">The publication list has not synced yet. It fills in automatically
       from ORCID once the workflow runs.</p>
-    {%- endfor -%}
-    <p style="margin-top:.9rem;font-size:.88rem"><a href="{{ '/publications/' | relative_url }}">Full publication list</a></p>
+    {%- endif -%}
+    <p style="margin-top:.9rem;font-size:.88rem"><a href="{{ '/publications/' | relative_url }}">All {{ site.data.publications.count }} publications</a></p>
   </div>
 </div></section>
 
@@ -78,6 +91,7 @@ title: Home
       <div>
         {%- if n.kind %}<div class="k">{{ n.kind }}</div>{% endif -%}
         <h3>{% if n.url %}<a href="{{ n.url }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</h3>
+        {%- if n.where %}<p>{{ n.where }}</p>{% endif -%}
         {%- if n.summary %}<p>{{ n.summary }}</p>{% endif -%}
       </div>
     </div>
@@ -88,7 +102,7 @@ title: Home
 <section><div class="w">
   <h2>Contact</h2>
   <div>
-    <p><a href="mailto:{{ s.email }}">{{ s.email }}</a> · {{ s.phone }}</p>
+    <p>{{ s.phone }}</p>
     <p class="note">{{ s.office }}<br>{{ s.postal }}<br>Office hours {{ s.hours }}</p>
   </div>
 </div></section>

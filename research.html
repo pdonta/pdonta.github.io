@@ -37,8 +37,42 @@ permalink: /research/
   <h2>Directions</h2>
   <div>
     {%- for d in r.directions -%}
-    <div class="block"><h3>{{ d.title }}</h3><p>{{ d.summary }}</p></div>
+    <div class="block">
+      {%- if d.image -%}
+      <img class="logo" src="{{ d.image | relative_url }}" alt="{{ d.image_alt | default: d.title }}">
+      {%- endif -%}
+      <h3>{{ d.title }}</h3>
+      <p>{{ d.summary }}</p>
+    </div>
     {%- endfor -%}
+  </div>
+</div></section>
+{%- endif -%}
+
+{%- if r.phd_students and r.phd_students.size > 0 -%}
+<section><div class="w">
+  <h2>PhD students</h2>
+  <ul class="svc">
+    {%- for st in r.phd_students -%}
+    <li>
+      <div>{% if st.url %}<a href="{{ st.url }}">{{ st.name }}</a>{% else %}{{ st.name }}{% endif %}
+           <span class="sub">{{ st.role }}</span></div>
+      {%- if st.status %}<span>{{ st.status }}</span>{% endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</div></section>
+{%- endif -%}
+
+{%- if r.opening -%}
+<section><div class="w">
+  <h2>Open position</h2>
+  <div>
+    <div class="block">
+      <h3><a href="{{ r.opening.url }}">{{ r.opening.title }}</a></h3>
+      {%- if r.opening.deadline %}<p class="meta">Applications close {{ r.opening.deadline }}</p>{% endif -%}
+      <p>{{ r.opening.summary }}</p>
+    </div>
   </div>
 </div></section>
 {%- endif -%}

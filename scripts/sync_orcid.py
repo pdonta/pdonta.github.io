@@ -15,6 +15,7 @@ Env:  ORCID_ID        override the iD in _config.yml
 import json
 import os
 import pathlib
+import re
 import sys
 import time
 import urllib.error
@@ -32,6 +33,8 @@ ME_FAMILY = "donta"
 ME_GIVEN = "praveen"
 
 # ORCID work types -> the heading they appear under, and the display order.
+PREPRINT_TYPES = {"preprint", "working-paper"}
+
 GROUPS = [
     ("Journal articles", {"journal-article"}),
     ("Books", {"book", "edited-book"}),
@@ -148,10 +151,41 @@ def format_authors(authors):
     return ", ".join(out)
 
 
+def fetch_datacite(doi, email):
+    """arXiv and Zenodo DOIs are registered with DataCite, not Crossref."""
+    url = "https://api.datacite.org/dois/" + urllib.parse.quote(doi, safe="")
+    data = get_json(url, {"User-Agent": f"personal-website/1.0 (mailto:{email})"})
+    time.sleep(0.12)
+    if not data:
+        return {}
+    attrs = (data.get("data") or {}).get("attributes") or {}
+    creators = []
+    for c in attrs.get("creators") or []:
+        creators.append({"given": c.get("givenName") or "",
+                         "family": c.get("familyName") or "",
+                         "name": c.get("name") or ""})
+    venue = None
+    if attrs.get("publisher"):
+        pub = attrs["publisher"]
+        venue = pub.get("name") if isinstance(pub, dict) else str(pub)
+    return {
+        "authors": format_authors(creators),
+        "venue": venue,
+        "year": attrs.get("publicationYear"),
+        "cited": attrs.get("citationCount") or 0,
+    }
+
+
 def fetch_crossref(doi, cache, email):
     key = doi.lower()
     if key in cache:
         return cache[key]
+
+    # arXiv / Zenodo prefixes are DataCite, asking Crossref returns nothing
+    if key.startswith("10.48550") or key.startswith("10.5281"):
+        rec = fetch_datacite(doi, email)
+        cache[key] = rec
+        return rec
 
     url = "https://api.crossref.org/works/" + urllib.parse.quote(doi, safe="")
     if email:
@@ -177,10 +211,59 @@ def fetch_crossref(doi, cache, email):
             "detail": ", ".join(bits) or None,
             "year": issued[0] if issued and issued[0] else None,
             "publisher": (m.get("publisher") or "").strip() or None,
+            "cited": m.get("is-referenced-by-count") or 0,
         }
 
     cache[key] = rec
     return rec
+
+
+def norm_title(s):
+    """Loose title key, so 'Self-Healing: A Survey' == 'self healing a survey'."""
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+
+
+def drop_duplicate_preprints(works):
+    """A paper usually appears twice: once as an arXiv preprint, once as the
+    published version. Keep the published one and discard the preprint."""
+    published = {norm_title(w["title"]) for w in works
+                 if w["type"] not in PREPRINT_TYPES}
+    kept, dropped = [], 0
+    for w in works:
+        if w["type"] in PREPRINT_TYPES and norm_title(w["title"]) in published:
+            dropped += 1
+            continue
+        kept.append(w)
+    if dropped:
+        print(f"  merged {dropped} preprint(s) into their published versions")
+    return kept
+
+
+def load_extras():
+    """Manually-listed works (books in press, anything not yet in ORCID)."""
+    path = ROOT / "_data" / "extra_publications.yml"
+    if not path.exists():
+        return []
+    items = yaml.safe_load(path.read_text()) or []
+    if isinstance(items, dict):
+        items = items.get("items") or []
+    out = []
+    for it in items:
+        if not it or not it.get("title"):
+            continue
+        out.append({
+            "title": it["title"],
+            "authors": it.get("authors"),
+            "venue": it.get("venue"),
+            "detail": it.get("detail"),
+            "year": it.get("year") or 0,
+            "url": it.get("url"),
+            "type": (it.get("type") or "book").lower(),
+            "doi": None,
+        })
+    if out:
+        print(f"  {len(out)} manually-listed work(s) merged in")
+    return out
 
 
 def bucket(work_type):
@@ -213,9 +296,14 @@ def main():
             w["detail"] = cr["detail"]
         if not w["year"] and cr.get("year"):
             w["year"] = cr["year"]
+        if cr.get("cited"):
+            w["cited"] = cr["cited"]
 
     save_cache(cache)
-    print(f"  crossref: {len(cache) - before} new, {before} cached")
+    print(f"  metadata: {len(cache) - before} new, {before} cached")
+
+    works = drop_duplicate_preprints(works)
+    works.extend(load_extras())
 
     # Drop anything with no year rather than sorting it to a random place.
     for w in works:
@@ -225,7 +313,7 @@ def main():
     grouped = {name: [] for name, _ in GROUPS}
     for w in works:
         entry = {k: w.get(k) for k in
-                 ("title", "authors", "venue", "detail", "year", "url")}
+                 ("title", "authors", "venue", "detail", "year", "url", "cited")}
         entry = {k: v for k, v in entry.items() if v}
         grouped[bucket(w["type"])].append(entry)
 
@@ -239,7 +327,7 @@ def main():
     everything = sorted(works, key=lambda w: -(w["year"] or 0))
     recent = []
     for w in everything[:10]:
-        e = {k: w.get(k) for k in ("title", "authors", "venue", "detail", "year", "url")}
+        e = {k: w.get(k) for k in ("title", "authors", "venue", "detail", "year", "url", "cited")}
         recent.append({k: v for k, v in e.items() if v})
 
     payload = {

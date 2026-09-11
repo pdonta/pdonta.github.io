@@ -1,27 +1,50 @@
 # ===============================================================
 # News and talks, newest first.
 #
-# kind: one of "Talk", "News", "Award", "Paper", "Visit"
-# date: any readable string — "Mar 2026", "12 Mar 2026", "2026"
+# kind: Talk, News, Award, Paper, Visit
+# links: optional extra links (slides, video, recording)
 # ===============================================================
 
 items:
   - kind: News
-    date: Sep 2026
-    title: New personal website
+    date: Aug 2026
+    title: AI has the potential to create greener IoT
+    where: Department of Computer and Systems Sciences, Stockholm University
+    url: https://www.su.se/english/divisions/department-of-computer-and-systems-sciences/news/articles/2026-08-28-ai-has-the-potential-to-create-greener-iot
     summary: >-
-      Rebuilt this site on GitHub Pages, with the publication list syncing
-      automatically from ORCID.
+      An interview about TALENTS, the EU Marie Skłodowska-Curie Staff Exchange
+      project on energy-autonomous IoT for water quality monitoring.
 
-  - kind: News
-    date: 2025
-    title: Editorial board, IEEE Network Magazine
-    summary: Joined the editorial board.
+  - kind: Talk
+    date: 2026
+    title: Equilibrium in Distributed and Generative Intelligence Across the Computing Continuum
+    where: EdgeGen PhD Intensive Course on Generative Edge Intelligence, Nordic University Collaboration on Edge Intelligence
+    url: https://www.helsinki.fi/en/projects/nordic-university-collaboration-edge-intelligence/news-and-events/edgegen-phd-intensive-course-generative-edge-intelligence-2026
+
+  - kind: Talk
+    date: 2024
+    title: Distributed Intelligence in the Computing Continuum using Active Inference (Part 2)
+    where: SummerSoC 2024 · with Schahram Dustdar, TU Wien
+    links:
+      - label: Slides
+        url: https://www.summersoc.eu/wp-content/uploads/summersoc-2024-Donta-Distributed-Intelligence.pdf
+      - label: Video
+        url: https://youtu.be/cFpk15nf0nU
+
+  - kind: Talk
+    date: 2024
+    title: Distributed Intelligence in the Computing Continuum using Active Inference (Part 1)
+    where: SummerSoC 2024 · with Schahram Dustdar, TU Wien
+    links:
+      - label: Slides
+        url: https://www.summersoc.eu/wp-content/uploads/summersoc-2024-Donta-Distributed-Intelligence.pdf
+      - label: Video
+        url: https://youtu.be/D2foGxBPVNY
 
   # Copy this block to add an entry:
   # - kind: Talk
   #   date: Nov 2026
   #   title: Title of the talk
   #   where: Venue, city
-  #   url: https://link-to-slides-or-event
+  #   url: https://link-to-the-event
   #   summary: One or two lines about it.

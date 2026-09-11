@@ -2,14 +2,14 @@
 # Home page content.
 # ===============================================================
 
-# One or two sentences. This is the line people actually read.
+# The line under your name. Keep it to what you actually do.
 statement: >-
-  I study how computing systems can learn, reason about cause, and adapt themselves
-  across the continuum from sensor to edge to cloud — and what it takes to make that
-  behaviour dependable at city scale.
+  I work on bringing AI across the computing continuum — the span from small
+  sensing devices, through edge nodes, to the cloud. That means learning methods
+  that run where the resources are scarce, intelligent data and application-layer
+  protocols that decide what is worth sending and when, and systems that can
+  recover on their own when part of the deployment fails.
 
-# The four figures in the band under the header.
-# Publications count is filled in automatically from your ORCID sync.
 stats:
   - value: auto-publications
     label: Peer-reviewed publications
@@ -18,7 +18,7 @@ stats:
   - value: "2"
     label: PhD students supervised
   - value: "2"
-    label: Active research projects
+    label: Research projects
 
 background:
   - >-
@@ -29,5 +29,17 @@ background:
   - >-
     IEEE Senior Member and ACM Professional Member.
 
-# How many recent publications to show on the home page.
-recent_count: 5
+# ---------------------------------------------------------------
+# What appears under "Selected work" on the home page.
+#
+# List DOIs here to choose exactly which papers are shown — useful
+# for putting your best work up front rather than just the newest.
+# Leave the list empty and the three most recent non-preprint
+# entries are used instead.
+#
+# featured_dois:
+#   - 10.1007/s00607-025-01234-5
+#   - 10.1109/JIOT.2024.0000000
+# ---------------------------------------------------------------
+featured_dois: []
+recent_count: 3

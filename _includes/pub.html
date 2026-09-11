@@ -8,5 +8,6 @@
     {%- if pb.venue -%}
     <div class="v"><em>{{ pb.venue }}</em>{% if pb.detail %}<span>, {{ pb.detail }}</span>{% endif %}</div>
     {%- endif -%}
+    {%- if pb.cited and pb.cited > 0 %}<div class="cites">Cited by {{ pb.cited }}</div>{% endif -%}
   </div>
 </div>
