@@ -3,10 +3,10 @@
 # ===============================================================
 
 intro: >-
-  My work sits between distributed systems and machine learning. I build computing
+  My work sits between distributed systems and AI. I build computing
   continuum infrastructure that observes its own behaviour, reasons about the causes
   behind it, and adapts without a human in the loop. A large part of that is the
-  communication layer itself: intelligent data protocols and application-layer designs
+  data communications between the devices: intelligent data protocols and application-layer designs
   that decide what gets sent, when, and to which tier, rather than moving everything
   to the cloud and paying for it in energy and latency.
 
@@ -14,7 +14,7 @@ interests:
   - Distributed computing continuum systems
   - Intelligent data and application-layer protocols
   - Learning techniques in IoT
-  - AI/ML for computing systems
+  - AI across computing continuum
   - Cognition and causality in computing systems
   - Cyber-physical continuum
 
@@ -54,9 +54,7 @@ directions:
     image: /assets/img/crowmq.gif
     image_alt: CrowMQ logo
     summary: >-
-      A messaging layer for the continuum, currently in development. The goal is
-      brokering that adapts its routing and delivery guarantees to what the network
-      and the devices can actually sustain at that moment.
+      An intelligent messaging protocol for distributed AI systems, currently in development.
 
 # PhD students and openings sit here, alongside the work itself.
 phd_students:
