@@ -2,7 +2,7 @@
 # Rebuilt from ORCID by scripts/sync_orcid.py.
 # Fix mistakes in your ORCID record, not here.
 
-generated: 11 September 2026
+generated: 14 September 2026
 source: https://orcid.org/0000-0002-8233-6071
 count: 120
 recent:
@@ -21,6 +21,9 @@ recent:
 - title: A Taxonomy of Performance Metrics for the Distributed Computing Continuum
   venue: ArXiv
   year: 2026
+- title: Adaptive AI Task Partitioning and Safe Offloading in Heterogeneous Edge-Cloud Continuum
+  venue: ArXiv
+  year: 2026
 - title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
   venue: ArXiv
   year: 2026
@@ -36,9 +39,6 @@ recent:
   detail: vol. 13, no. 10, pp. 20644-20659
   year: 2026
   url: https://doi.org/10.1109/JIOT.2026.3666236
-- title: Dynamic and Distributed Routing in IoT Networks based on Multi-Objective Q-Learning
-  venue: ArXiv
-  year: 2026
 - title: Enhanced crack detection using GOA-UNet segmentation and Connected Component Analysis based aspect
     ratio estimation
   authors: A. S., A. K. Selvaraj, S. B. Prathiba, E. R. Adyanthaya, S. Janapati, <b>P. K. Donta</b>, T.
@@ -66,6 +66,9 @@ groups:
   - title: A Taxonomy of Performance Metrics for the Distributed Computing Continuum
     venue: ArXiv
     year: 2026
+  - title: Adaptive AI Task Partitioning and Safe Offloading in Heterogeneous Edge-Cloud Continuum
+    venue: ArXiv
+    year: 2026
   - title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
     venue: ArXiv
     year: 2026
@@ -81,9 +84,6 @@ groups:
     detail: vol. 13, no. 10, pp. 20644-20659
     year: 2026
     url: https://doi.org/10.1109/JIOT.2026.3666236
-  - title: Dynamic and Distributed Routing in IoT Networks based on Multi-Objective Q-Learning
-    venue: ArXiv
-    year: 2026
   - title: Enhanced crack detection using GOA-UNet segmentation and Connected Component Analysis based
       aspect ratio estimation
     authors: A. S., A. K. Selvaraj, S. B. Prathiba, E. R. Adyanthaya, S. Janapati, <b>P. K. Donta</b>,
@@ -147,6 +147,9 @@ groups:
     detail: vol. 13, no. 5, pp. 8296-8308
     year: 2026
     url: https://doi.org/10.1109/JIOT.2025.3631644
+  - title: 'Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum'
+    venue: ArXiv
+    year: 2026
   - title: 'Service Orchestration in the Computing Continuum: Structural Challenges and Vision'
     authors: B. Sedlak, V. C. Pujol, I. M. de Abril, <b>P. K. Donta</b>, A. N. Toosi, S. Dustdar
     venue: IEEE Internet Computing
@@ -172,9 +175,6 @@ groups:
     detail: vol. 107, no. 9
     year: 2025
     url: https://doi.org/10.1007/S00607-025-01528-6
-  - title: Adaptive Budgeted Multi-Armed Bandits for IoT with Dynamic Resource Constraints
-    venue: ArXiv
-    year: 2025
   - title: Adaptive Budgeted Multi-Armed Bandits for IoT with Dynamic Resource Constraints
     venue: ArXiv
     year: 2025
