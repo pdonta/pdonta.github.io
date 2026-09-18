@@ -2,7 +2,7 @@
 # Rebuilt from ORCID by scripts/sync_orcid.py.
 # Fix mistakes in your ORCID record, not here.
 
-generated: 14 September 2026
+generated: 18 September 2026
 source: https://orcid.org/0000-0002-8233-6071
 count: 120
 recent:
@@ -11,6 +11,7 @@ recent:
   venue: Springer
   detail: in preparation
   year: 2027
+  url: https://link.springer.com/book/9783032426703
 - title: A Lightweight Reinforcement Learning-Based Congestion-Aware Scheduling Framework for Blockchain-Enabled
     Multi-Access Edge Computing
   authors: X. Lu, X. Wang, Q. He, X. Wang, W. Cheng, K. Li, <b>P. K. Donta</b>, K. Yu, M. Huang
@@ -662,6 +663,7 @@ groups:
     venue: Springer
     detail: in preparation
     year: 2027
+    url: https://link.springer.com/book/9783032426703
   - title: Learning Techniques for the Internet of Things
     authors: <b>P. K. Donta</b>, A. Hazra, L. Lovén
     venue: Springer
