@@ -17,10 +17,11 @@ items:
     year: 2027
     type: book
     url: "https://link.springer.com/book/9783032426703"
+    cover: /assets/img/CC.png
 
   - title: Learning Techniques for the Internet of Things
     authors: "<b>P. K. Donta</b>, A. Hazra, L. Lovén"
     venue: Springer
     year: 2025
     type: book
-    url: "https://doi.org/10.1007/978-3-031-50514-0"
+    cover: /assets/img/LTIoT.png
