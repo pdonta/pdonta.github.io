@@ -6,7 +6,7 @@ generated: 18 September 2026
 source: https://orcid.org/0000-0002-8233-6071
 count: 120
 recent:
-- title: 'Computing Continuum: A Quantitative Guide'
+- title: Computing Continuum
   authors: <b>P. K. Donta</b> and, S. Dustdar
   venue: Springer
   detail: in preparation
@@ -658,7 +658,7 @@ groups:
     year: 1800
 - type: Books
   items:
-  - title: 'Computing Continuum: A Quantitative Guide'
+  - title: Computing Continuum
     authors: <b>P. K. Donta</b> and, S. Dustdar
     venue: Springer
     detail: in preparation
