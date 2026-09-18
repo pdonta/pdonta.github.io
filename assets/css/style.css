@@ -249,3 +249,13 @@ footer.site a { color: var(--soft); }
 /* Slides / video links under a talk */
 .news .links { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; margin-top: .35rem; font-size: .85rem; }
 .news .links a { color: var(--accent); }
+.pub.has-cover { grid-template-columns: 2.9rem 4.6rem minmax(0, 1fr); }
+.pub .cover {
+  width: 4.6rem; height: auto; display: block;
+  align-self: start; border: 1px solid var(--rule);
+}
+@media (max-width: 52rem) {
+  .pub.has-cover { grid-template-columns: 3.6rem minmax(0, 1fr); }
+  .pub.has-cover .yr { grid-column: 1 / -1; }
+  .pub .cover { width: 3.6rem; }
+}
