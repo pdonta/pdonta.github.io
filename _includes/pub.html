@@ -1,7 +1,10 @@
 {%- comment -%}One publication row. Call as: {% include pub.html p=item %}{%- endcomment -%}
 {%- assign pb = include.p -%}
-<div class="pub">
+<div class="pub{% if pb.cover %} has-cover{% endif %}">
   <div class="yr">{% if pb.year and pb.year > 0 %}{{ pb.year }}{% endif %}</div>
+  {%- if pb.cover -%}
+  <img class="cover" src="{{ pb.cover | relative_url }}" alt="Cover of {{ pb.title }}">
+  {%- endif -%}
   <div>
     <div class="t">{% if pb.url %}<a href="{{ pb.url }}">{{ pb.title }}</a>{% else %}{{ pb.title }}{% endif %}</div>
     {%- if pb.authors %}<div class="a">{{ pb.authors }}</div>{% endif -%}
