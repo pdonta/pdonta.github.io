@@ -668,6 +668,7 @@ groups:
     authors: <b>P. K. Donta</b>, A. Hazra, L. Lovén
     venue: Springer
     year: 2025
+    url: https://link.springer.com/book/10.1007/978-3-031-50514-0
 - type: Book chapters
   items:
   - title: Distributed Computing Continuum Systems–Opportunities and Research Challenges
