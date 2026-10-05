@@ -104,6 +104,14 @@
 "venue": "Journal of Ambient Intelligence and Humanized Computing",
 "year": 2023
 },
+"10.1016/j.asoc.2018.05.008": {
+"authors": "P. K. D., T. Amgoth, C. S. R. Annavarapu",
+"cited": 127,
+"detail": "vol. 69, pp. 528-540",
+"publisher": "Elsevier BV",
+"venue": "Applied Soft Computing",
+"year": 2018
+},
 "10.1016/j.comcom.2021.08.017": {
 "authors": "D. K. Sah, K. Cengiz, <b>P. K. Donta</b>, V. N. Inukollu, T. Amgoth",
 "detail": "vol. 180, pp. 48-56",
@@ -131,6 +139,14 @@
 "publisher": "Elsevier BV",
 "venue": "Future Generation Computer Systems",
 "year": 2024
+},
+"10.1016/j.inffus.2018.09.013": {
+"authors": "D. Praveen Kumar, T. Amgoth, C. S. R. Annavarapu",
+"cited": 630,
+"detail": "vol. 49, pp. 1-25",
+"publisher": "Elsevier BV",
+"venue": "Information Fusion",
+"year": 2019
 },
 "10.1016/j.iot.2024.101165": {
 "authors": "G. Thirumal, C. Kumar, <b>P. K. Donta</b>",
@@ -194,6 +210,14 @@
 "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
 "venue": "IEEE Access",
 "year": 2026
+},
+"10.1109/aiot66900.2025.00097": {
+"authors": "V. Popescu-Vifor, I. Murturi, P. Kumar Donta, S. Dustdar",
+"cited": 1,
+"detail": "pp. 645-649",
+"publisher": "IEEE",
+"venue": "2025 IEEE Annual Congress on Artificial Intelligence of Things (AIoT)",
+"year": 2025
 },
 "10.1109/cogmi58952.2023.00029": {
 "authors": "I. Murturi, <b>P. K. Donta</b>, S. Dustdar",
@@ -265,6 +289,22 @@
 "venue": "2025 IEEE International Conference on Edge Computing and Communications (EDGE)",
 "year": 2025
 },
+"10.1109/edge72783.2026.00013": {
+"authors": "P. Ye, A. Lapkovskis, A. Saleh, Q. Zhang, <b>P. K. Donta</b>",
+"cited": 0,
+"detail": "pp. 21-31",
+"publisher": "IEEE",
+"venue": "2026 IEEE International Conference on Edge Computing and Communications (EDGE)",
+"year": 2026
+},
+"10.1109/globecom59602.2025.11432479": {
+"authors": "S. Vaishnav, <b>P. K. Donta</b>, S. Magn\u00fasson",
+"cited": 1,
+"detail": "pp. 4535-4540",
+"publisher": "IEEE",
+"venue": "GLOBECOM 2025 - 2025 IEEE Global Communications Conference",
+"year": 2025
+},
 "10.1109/icc51166.2024.10622590": {
 "authors": "J. Guan, Q. Zhang, I. Murturi, <b>P. K. Donta</b>, S. Dustdar, S. Wang",
 "detail": "pp. 3803-3808",
@@ -286,6 +326,14 @@
 "venue": "2020 IEEE International IOT, Electronics and Mechatronics Conference (IEMTRONICS)",
 "year": 2020
 },
+"10.1109/iotm.001.2100116": {
+"authors": "D. K. Sah, M. Poongodi, <b>P. K. Donta</b>, M. Hamdi, K. Cengiz, M. M. Kamruzzaman, H. T. Rauf",
+"cited": 8,
+"detail": "vol. 5, no. 1, pp. 62-66",
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"venue": "IEEE Internet of Things Magazine",
+"year": 2022
+},
 "10.1109/jiot.2022.3150070": {
 "authors": "A. Hazra, <b>P. K. Donta</b>, T. Amgoth, S. Dustdar",
 "detail": "vol. 10, no. 5, pp. 3944-3953",
@@ -303,6 +351,14 @@
 "10.1109/jiot.2026.3666236": {
 "authors": "S. Vaishnav, <b>P. K. Donta</b>, S. Magn\u00fasson",
 "detail": "vol. 13, no. 10, pp. 20644-20659",
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"venue": "IEEE Internet of Things Journal",
+"year": 2026
+},
+"10.1109/jiot.2026.3718925": {
+"authors": "T. Reddy Gadekallu, T. Huynh-The, A. Chehri, S. Y. Mohammed, H. M. Saleh, P. Bhattacharya, D. Kodati, <b>P. K. Donta</b>, M. Masuduzzaman, G. Yenduri, A. M. Abdelmoniem, K. Fang, et al.",
+"cited": 0,
+"detail": "vol. 13, no. 19, pp. 44321-44342",
 "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
 "venue": "IEEE Internet of Things Journal",
 "year": 2026
@@ -398,6 +454,14 @@
 "venue": "IEEE Wireless Communications",
 "year": 2026
 },
+"10.1109/ocit53463.2021.00035": {
+"authors": "M. Srinivas, <b>P. K. Donta</b>, T. Amgoth",
+"cited": 5,
+"detail": "pp. 126-131",
+"publisher": "IEEE",
+"venue": "2021 19th OITS International Conference on Information Technology (OCIT)",
+"year": 2021
+},
 "10.1109/percomworkshops59983.2024.10502828": {
 "authors": "B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar",
 "detail": "pp. 550-555",
@@ -408,6 +472,14 @@
 "10.1109/percomworkshops68308.2026.11585287": {
 "authors": "<b>P. K. Donta</b>, A. Lapkovskis, E. Mingozzi, S. Dustdar",
 "detail": "pp. 477-480",
+"publisher": "IEEE",
+"venue": "2026 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)",
+"year": 2026
+},
+"10.1109/percomworkshops68308.2026.11585362": {
+"authors": "A. Kumar, S. Roy, <b>P. K. Donta</b>, D. Kumar Sah",
+"cited": 0,
+"detail": "pp. 1-6",
 "publisher": "IEEE",
 "venue": "2026 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)",
 "year": 2026
@@ -545,6 +617,22 @@
 "venue": "Journal of Big Data",
 "year": 2023
 },
+"10.1201/9781003463559": {
+"authors": "A. Wahid, P. Kumar Donta",
+"cited": 2,
+"detail": null,
+"publisher": "CRC Press",
+"venue": null,
+"year": 2025
+},
+"10.2139/ssrn.4640812": {
+"authors": "G. Thirumal, C. Kumar, <b>P. K. Donta</b>",
+"cited": 0,
+"detail": null,
+"publisher": "Elsevier BV",
+"venue": null,
+"year": 2023
+},
 "10.26599/tst.2025.9010170": {
 "authors": "Y. Xu, G. Han, Q. Gao, <b>P. K. Donta</b>, B. Cui",
 "detail": null,
@@ -622,6 +710,22 @@
 "venue": "Sustainability",
 "year": 2022
 },
+"10.36227/techrxiv.177015966.65155882/v1": {
+"authors": "T. R. Gadekallu, Y. Xia, J. Cai, Y. Zhao, Z. Wen, A. Saleh, <b>P. K. Donta</b>, Q. Zhang, A. M. Abdelmoniem, H. Feng, K. Fang",
+"cited": 1,
+"detail": null,
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"venue": null,
+"year": 2026
+},
+"10.36227/techrxiv.177031331.10995367/v1": {
+"authors": "T. R. Gadekallu, C. D. Alwis, P. Bhattacharya, R. Jhaveri, Y. Mohammed, M. H. Abidi, <b>P. K. Donta</b>, G. Yenduri, K. Fang",
+"cited": 0,
+"detail": null,
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"venue": null,
+"year": 2026
+},
 "10.4018/joeuc.334109": {
 "authors": "T. Li, <b>P. K. Donta</b>",
 "detail": "vol. 35, no. 1, pp. 1-19",
@@ -636,7 +740,217 @@
 "venue": "Journal of Organizational and End User Computing",
 "year": 2024
 },
+"10.48550/arxiv.2101.10758": {
+"authors": "D. K. Sah, <b>P. K. Donta</b>, T. Amgoth",
+"cited": 0,
+"venue": "arXiv",
+"year": 2021
+},
+"10.48550/arxiv.2306.01334": {
+"authors": "Y. Li, X. Wang, R. Zeng, <b>P. K. Donta</b>, I. Murturi, M. Huang, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.06073": {
+"authors": "J. Guan, Q. Zhang, I. Murturi, <b>P. K. Donta</b>, S. Dustdar, S. Wang",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.10597": {
+"authors": "B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.10607": {
+"authors": "B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.16744": {
+"authors": "C. Bicer, I. Murturi, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.16769": {
+"authors": "B. Sedlak, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.17447": {
+"authors": "I. Murturi, <b>P. K. Donta</b>, V. C. Pujol, A. Morichetta, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.17471": {
+"authors": "A. Hazra, A. Morichetta, I. Murturi, L. Lov\u00e9n, C. K. Dehury, V. C. Pujol, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2311.17958": {
+"authors": "I. Murturi, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2023
+},
+"10.48550/arxiv.2404.12486": {
+"authors": "A. Saleh, <b>P. K. Donta</b>, R. Morabito, N. H. Motlagh, L. Lov\u00e9n",
+"cited": 0,
+"venue": "arXiv",
+"year": 2024
+},
+"10.48550/arxiv.2408.10191": {
+"authors": "T. Peroutka, I. Murturi, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2024
+},
+"10.48550/arxiv.2409.17937": {
+"authors": "B. Sedlak, V. C. Pujol, A. Morichetta, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2024
+},
+"10.48550/arxiv.2503.03274": {
+"authors": "A. Lapkovskis, B. Sedlak, S. Magn\u00fasson, S. Dustdar, <b>P. K. Donta</b>",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2503.21109": {
+"authors": "Y. Gao, Z. Zhang, <b>P. K. Donta</b>, C. K. Dehury, X. Wang, D. Niyato, Q. Zhang",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
 "10.48550/arxiv.2505.00472": {},
+"10.48550/arxiv.2505.00918": {
+"authors": "S. Vaishnav, <b>P. K. Donta</b>, S. Magn\u00fasson",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2505.02640": {
+"authors": "S. Vaishnav, <b>P. K. Donta</b>, S. Magn\u00fasson",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2506.10607": {
+"authors": "H. Nguyen, H. Nguyen, <b>P. K. Donta</b>, S. Pirttikangas, L. Lov\u00e9n",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2506.22884": {
+"authors": "<b>P. K. Donta</b>, Q. Zhang, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2511.07202": {
+"authors": "<b>P. K. Donta</b>, A. Lapkovskis, E. Mingozzi, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2512.08288": {
+"authors": "C. K. Dehury, L. Lov\u00e9n, <b>P. K. Donta</b>, I. Murturi, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2512.12299": {
+"authors": "V. Popescu-Vifor, I. Murturi, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2025
+},
+"10.48550/arxiv.2601.00339": {
+"authors": "A. Saleh, <b>P. K. Donta</b>, R. Morabito, S. Tarkoma, A. Lindgren, Q. Zhang, S. Dustdar, S. Pirttikangas, L. Lov\u00e9n",
+"cited": 1,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2601.06064": {
+"authors": "<b>P. K. Donta</b>, A. Saleh, Y. Li, S. Vaishnav, K. Fang, H. Feng, Y. Xia, T. R. Gadekallu, Q. Zhang, X. Shi, A. Beikmohammadi, S. Magn\u00fasson, et al.",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2602.15794": {
+"authors": "B. Sedlak, V. C. Pujol, I. M. de Abril, <b>P. K. Donta</b>, A. N. Toosi, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2603.05614": {
+"authors": "L. Lov\u00e9n, A. Saleh, R. Farahani, I. Murturi, S. Gujar, M. B. L\u00f3pez, <b>P. K. Donta</b>, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2603.21145": {
+"authors": "P. Ye, A. Lapkovskis, A. Saleh, Q. Zhang, <b>P. K. Donta</b>",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2604.09607": {
+"authors": "C. K. Dehury, S. S. Kushwaha, Q. Zhang, A. Saleh, <b>P. K. Donta</b>",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2605.10718": {
+"authors": "S. De Silva, A. Lapkovskis, A. Saleh, S. Tarkoma, <b>P. K. Donta</b>",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2605.26604": {
+"authors": "L. Lov\u00e9n, S. Gujar, K. Timperi, H. Mehmood, <b>P. K. Donta</b>, S. Tarkoma, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2606.03061": {
+"authors": "A. Lapkovskis, A. Beikmohammadi, S. Magn\u00fasson, <b>P. K. Donta</b>",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2607.08443": {
+"authors": "A. K. Subudhi, B. Chirumamilla, S. Vaishnav, M. C. Hlophe, <b>P. K. Donta</b>, A. Fumagalli, V. Gudepu, K. Kondepu",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2607.18273": {
+"authors": "T. Hansson, <b>P. K. Donta</b>",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2607.28407": {
+"authors": "<b>P. K. Donta</b>, B. Sedlak, A. Lapkovskis, A. Saleh, Y. Li, V. C. Pujol, I. Murturi, M. O. Barbasan, S. Dustdar",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
+"10.48550/arxiv.2608.11840": {
+"authors": "A. Lapkovskis, A. Beikmohammadi, S. Magn\u00fasson, <b>P. K. Donta</b>",
+"cited": 0,
+"venue": "arXiv",
+"year": 2026
+},
 "10.5281/zenodo.10658238": {},
 "https://doi.org/10.1016/j.asoc.2018.05.008": {
 "authors": "P. K. D., T. Amgoth, C. S. R. Annavarapu",
