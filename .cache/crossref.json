@@ -405,6 +405,14 @@
 "venue": "IEEE Consumer Electronics Magazine",
 "year": 2025
 },
+"10.1109/mcom.001.2600050": {
+"authors": "N. M. Khan, P. Bhattacharya, Q. Zhang, <b>P. K. Donta</b>, a. T. R. Gadekallu",
+"cited": 0,
+"detail": "pp. 1-7",
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"venue": "IEEE Communications Magazine",
+"year": 2026
+},
 "10.1109/mic.2023.3284693": {
 "authors": "V. C. Pujol, <b>P. K. Donta</b>, A. Morichetta, I. Murturi, S. Dustdar",
 "detail": "vol. 27, no. 4, pp. 53-74",

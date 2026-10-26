@@ -2,9 +2,9 @@
 # Rebuilt from ORCID by scripts/sync_orcid.py.
 # Fix mistakes in your ORCID record, not here.
 
-generated: 19 October 2026
+generated: 26 October 2026
 source: https://orcid.org/0000-0002-8233-6071
-count: 128
+count: 129
 recent:
 - title: Computing Continuum
   authors: <b>P. K. Donta</b> and, S. Dustdar
@@ -55,18 +55,17 @@ recent:
   detail: vol. 13, no. 19, pp. 44321-44342
   year: 2026
   url: https://doi.org/10.1109/JIOT.2026.3718925
+- title: Agentic Metasurface Intelligence for IRS in 6G Edge Networks
+  authors: N. M. Khan, P. Bhattacharya, Q. Zhang, <b>P. K. Donta</b>, a. T. R. Gadekallu
+  venue: IEEE Communications Magazine
+  detail: pp. 1-7
+  year: 2026
+  url: https://doi.org/10.1109/mcom.001.2600050
 - title: An Uncertainty-Aware Resilience Micro-Agent for Causal Observability in the Computing Continuum
   authors: S. De Silva, A. Lapkovskis, A. Saleh, S. Tarkoma, <b>P. K. Donta</b>
   venue: arXiv
   year: 2026
   url: https://doi.org/10.48550/arXiv.2605.10718
-- title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
-  authors: A. Saleh, <b>P. K. Donta</b>, R. Morabito, S. Tarkoma, A. Lindgren, Q. Zhang, S. Dustdar, S.
-    Pirttikangas, L. Lovén
-  venue: arXiv
-  year: 2026
-  url: https://doi.org/10.48550/arXiv.2601.00339
-  cited: 1
 groups:
 - type: Journal articles
   items:
@@ -93,6 +92,12 @@ groups:
     detail: vol. 13, no. 19, pp. 44321-44342
     year: 2026
     url: https://doi.org/10.1109/JIOT.2026.3718925
+  - title: Agentic Metasurface Intelligence for IRS in 6G Edge Networks
+    authors: N. M. Khan, P. Bhattacharya, Q. Zhang, <b>P. K. Donta</b>, a. T. R. Gadekallu
+    venue: IEEE Communications Magazine
+    detail: pp. 1-7
+    year: 2026
+    url: https://doi.org/10.1109/mcom.001.2600050
   - title: Bio-inspired Agentic Self-healing Framework for Resilient Distributed Computing Continuum Systems
     authors: A. Saleh, <b>P. K. Donta</b>, R. Morabito, S. Tarkoma, A. Lindgren, Q. Zhang, S. Dustdar,
       S. Pirttikangas, L. Lovén
