@@ -2,7 +2,7 @@
 # Rebuilt from ORCID by scripts/sync_orcid.py.
 # Fix mistakes in your ORCID record, not here.
 
-generated: 26 October 2026
+generated: 02 November 2026
 source: https://orcid.org/0000-0002-8233-6071
 count: 129
 recent:
@@ -192,6 +192,11 @@ groups:
     detail: vol. 25, no. 6, pp. 8911-8927
     year: 2026
     url: https://doi.org/10.1109/TMC.2025.3650680
+  - title: A Conflict-Aware Resource Management Framework for the Computing Continuum
+    authors: V. Popescu-Vifor, I. Murturi, <b>P. K. Donta</b>, S. Dustdar
+    venue: arXiv
+    year: 2025
+    url: https://doi.org/10.48550/arXiv.2512.12299
   - title: 'A Systematic Literature Review of Advanced Machine Learning Techniques in Wireless Body Area
       Networks: Application, Challenges, and Future Directions'
     authors: A. Ibrahim Adamu, P. Kumar Donta, D. Mohd Ali, S. Sarang, G. M. Stojanović, S. Seroja Sarnin
@@ -693,11 +698,6 @@ groups:
     detail: pp. 1-5
     year: 2016
     url: https://doi.org/10.1145/2979779.2979792
-  - title: A Conflict-Aware Resource Management Framework for the Computing Continuum
-    authors: V. Popescu-Vifor, I. Murturi, <b>P. K. Donta</b>, S. Dustdar
-    venue: arXiv
-    year: 1800
-    url: https://doi.org/10.48550/arXiv.2512.12299
 - type: Books
   items:
   - title: Computing Continuum
